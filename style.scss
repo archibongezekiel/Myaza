@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #6710f278,
+    rgba(201, 190, 190, 0.954)
+  );
+  font-family: "Domine", serif;
+
+  header {
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+
+    border-radius: 50px;
+    #menu_button {
+      background-color: rgb(219, 225, 231);
+      position: relative;
+      left: 97%;
+      outline: none;
+      border: none;
+      padding: 10px;
+      border-radius: 30px;
+    }
+    #menu_button:hover {
+      background: rgba(215, 219, 223, 0.713);
+    }
+  }
+
+  main {
+    width: 46%;
+    margin: auto;
+    margin-top: 10px;
+
+    .title {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .iphone_ipad,
+    .android_button,
+    .web_app,
+    .web_side {
+      height: 57px;
+      margin: 10px;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+      #iphone_ipad_button,
+      #android_button,
+      #web_app_button,
+      #webside_button {
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+        padding: 8px;
+        border-radius: 5px;
+        text-decoration: none;
+
+        #icon {
+          width: 40px;
+        }
+        #label {
+          margin: auto;
+        }
+      }
+      #apple_share,
+      #android_share,
+      #webApp_button,
+      #webSide_button {
+        display: none;
+        position: relative;
+        bottom: 50px;
+        left: 590px;
+        border: none;
+        outline: none;
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+      }
+    }
+
+    #iphone_ipad_button:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #android_button:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #web_app_button:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #webside_button:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    //  .android_button {
+    //    height: 57px;
+    //    margin: 10px;
+    //    color: rgb(0, 0, 0);
+    //    cursor: pointer;
+    //    border: 1px solid red;
+    //    #android_button {
+    //      display: flex;
+    //      align-items: center;
+    //      background-color: rgba(255, 255, 255, 0.8);
+    //      color: black;
+    //      padding: 8px;
+    //      border-radius: 5px;
+    //      text-decoration: none;
+
+    //      #icon {
+    //        width: 40px;
+    //      }
+    //      #label {
+    //        margin: auto;
+    //      }
+    //    }
+    //    #android_share {
+    //      display: none;
+    //      position: relative;
+    //      bottom: 50px;
+    //      left: 590px;
+    //      border: none;
+    //      outline: none;
+    //      height: 40px;
+    //      width: 40px;
+    //      border-radius: 40px;
+    //    }
+    //  }
+
+    //  #android_button:hover {
+    //    transform: scale(1.1);
+    //    box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    //  }
+
+    .social_media_icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+
+      #mail,
+      #facebook,
+      #instagram,
+      #linkedin,
+      #twitter {
+        width: 26px;
+        height: 26px;
+        margin: 10px;
+      }
+    }
+
+    #mail:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #facebook:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #instagram:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #linkedin:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+    #twitter:hover {
+      transform: scale(1.1);
+      box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    }
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    #linktree {
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+  }
+  .share {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    background: white;
+    overflow: scroll;
+    position: fixed;
+    bottom: 00px;
+    left: 530px;
+    height: 100%;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    .subtitle {
+      .dd {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin: 5px;
+      }
+      #close_button {
+        background: none;
+        position: absolute;
+        left: 340px;
+        bottom: 93%;
+        outline: none;
+        border: none;
+        padding: 4px;
+        border-radius: 5px;
+        cursor: pointer;
+        #close_icon {
+          font-size: 20px;
+        }
+      }
+      #close_button:hover {
+        background: rgba(209, 217, 224, 0.248);
+      }
+    }
+    .social-media_plaform {
+      padding: 4px;
+      margin: 5px;
+      line-height: 40px;
+      margin-top: 13px;
+    }
+    #social-media {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 10px;
+      color: rgb(10, 11, 13);
+      #snapchat,
+      #facebook,
+      #linkedin,
+      #twitter,
+      #whatsapp,
+      #messenger,
+      #email {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    #social-media:hover {
+      background-color: rgba(209, 217, 224, 0.248);
+    }
+    .copy_link_button {
+      display: block;
+      margin: auto;
+      outline: none;
+      background: none;
+      border-radius: 10px;
+      width: 330px;
+      border: 1px solid rgb(224, 226, 217);
+      cursor: pointer;
+      .copy_link {
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        .flex_1 {
+          display: flex;
+          align-items: center;
+          width: 250px;
+          padding: 7px;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .copy_link_button:hover {
+      background-color: rgba(209, 217, 224, 0.248);
+    }
+    #report_link {
+      display: flex;
+      text-decoration: none;
+      margin-top: 15px;
+      border-top: 1px solid rgb(224, 226, 217);
+
+      color: rgb(10, 11, 13);
+      .report_link {
+        display: flex;
+        align-items: center;
+        #report_link2 {
+          display: flex;
+          align-items: center;
+          width: 300px;
+          padding: 5px;
+          margin-left: 27px;
+        }
+      }
+    }
+    #report_link:hover {
+      background-color: rgba(209, 217, 224, 0.248);
+    }
+    .sign_in_linktree {
+      border-top: 1px groove rgba(0, 0, 0, 0.632);
+      margin: auto;
+      padding: 15px;
+      #sign_in_linktree {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        #title {
+          padding: 3px;
+          line-height: 22px;
+        }
+        #sign_up_button {
+          background: black;
+          text-align: center;
+          padding: 15px;
+          border-radius: 20px;
+          margin-top: 10px;
+        }
+        #find_more_button {
+          background: none;
+          text-align: center;
+          padding: 15px;
+          border-radius: 20px;
+          margin-top: 10px;
+          border: 1px solid rgb(224, 226, 217);
+        }
+        #find_more_button:hover {
+          background-color: rgba(209, 217, 224, 0.248);
+        }
+      }
+    }
+  }
+}
