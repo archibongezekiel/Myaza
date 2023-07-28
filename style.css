@@ -158,8 +158,8 @@ body main .social_media_icon #facebook,
 body main .social_media_icon #instagram,
 body main .social_media_icon #linkedin,
 body main .social_media_icon #twitter {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   margin: 10px;
 }
 body main #mail:hover {
