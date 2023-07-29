@@ -41,26 +41,43 @@ android_share.addEventListener("mouseenter", () => {
     android_share.style.background = "none";
   });
 }); //
+function blur() {
+  document.querySelector("#blur1").setAttribute("class", "blur1");
+  document.querySelector("#blur2").setAttribute("class", "blur2");
+  document.querySelector("#blur3").setAttribute("class", "blur3");
+  document.querySelector("#blur4").setAttribute("class", "blur4");
+  document.querySelector("#blur5");
+}
+function noBlur() {
+  document.querySelector("#blur1").setAttribute("class", null);
+  document.querySelector("#blur2").setAttribute("class", null);
+  document.querySelector("#blur3").setAttribute("class", null);
+  document.querySelector("#blur4").setAttribute("class", null);
+}
 let i = new pageLink(share);
 let j = new pageLink(share);
 menu_button.addEventListener("click", () => {
   i.android();
+  blur();
   linkTree1.innerText = "linktr.ee/" + linkTree2.innerText + "myaza";
   close_button.addEventListener("click", () => {
     j.android1();
+    noBlur();
   });
 });
-///////////
+///////////////////////////////////////////////////////////////////////
 let a = new pageLink(share);
 let b = new pageLink(share);
 android_share.addEventListener("click", () => {
   a.android();
+  blur();
   linkTree1.innerText = "tr.ee/" + linkTree2.innerText + "Dne4r1gNEQ";
   close_button.addEventListener("click", () => {
     b.android1();
+    noBlur();
   });
 });
-//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
 let iphone1 = new pageLink(apple_share);
 let iphone2 = new pageLink(apple_share);
 iphone_ipad_button.addEventListener("mouseover", () => {
@@ -69,14 +86,16 @@ iphone_ipad_button.addEventListener("mouseover", () => {
     iphone2.android1();
   });
 });
-//////////
+//////////////////////////////////////////////////////////////////////////
 let c = new pageLink(share);
 let d = new pageLink(share);
 apple_share.addEventListener("click", () => {
   c.android();
+  blur();
   linkTree1.innerText = "tr.ee/" + linkTree2.innerText + "B87kuh9D5J";
   close_button.addEventListener("click", () => {
     d.android1();
+    noBlur();
   });
 });
 ///////////////////////////////
@@ -108,10 +127,12 @@ webAppButton.addEventListener("mouseenter", () => {
 let e = new pageLink(share);
 let f = new pageLink(share);
 webAppButton.addEventListener("click", () => {
+  blur();
   linkTree1.innerText = "tr.ee/" + linkTree2.innerText + "V6n8hfEDQp";
   e.android();
   close_button.addEventListener("click", () => {
     f.android1();
+    noBlur();
   });
 });
 //////////////////////////////////////////////////////////////////
@@ -134,9 +155,11 @@ let g = new pageLink(share);
 let h = new pageLink(share);
 webSideButton.addEventListener("click", () => {
   g.android();
+  blur();
   linkTree1.innerText = "tr.ee/" + linkTree2.innerText + "GJu72wN556";
   close_button.addEventListener("click", () => {
     h.android1();
+    noBlur();
   });
 });
 

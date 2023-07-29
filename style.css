@@ -5,17 +5,29 @@
   box-sizing: border-box;
 }
 
-body {
+#blur5 {
   background-image: linear-gradient(to right, rgba(103, 16, 242, 0.4705882353), rgba(201, 190, 190, 0.954));
   font-family: "Domine", serif;
 }
-body header {
+#blur5 .blur1,
+#blur5 .blur2,
+#blur5 .blur3,
+#blur5 .blur4,
+#blur5 .blur5 {
+  cursor: not-allowed;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+#blur5 header {
   margin: auto;
   width: 50%;
   padding: 15px;
   border-radius: 50px;
 }
-body header #menu_button {
+#blur5 header #menu_button {
   background-color: rgb(219, 225, 231);
   position: relative;
   left: 97%;
@@ -24,43 +36,43 @@ body header #menu_button {
   padding: 10px;
   border-radius: 30px;
 }
-body header #menu_button:hover {
+#blur5 header #menu_button:hover {
   background: rgba(215, 219, 223, 0.713);
 }
-body main {
+#blur5 main {
   width: 46%;
   margin: auto;
   margin-top: 10px;
 }
-body main .title {
+#blur5 main .title {
   text-align: center;
   padding: 10px;
 }
-body main .iphone_ipad,
-body main .android_button,
-body main .web_app,
-body main .web_side {
+#blur5 main .iphone_ipad,
+#blur5 main .android_button,
+#blur5 main .web_app,
+#blur5 main .web_side {
   height: 57px;
   margin: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
-body main .iphone_ipad #iphone_ipad_button,
-body main .iphone_ipad #android_button,
-body main .iphone_ipad #web_app_button,
-body main .iphone_ipad #webside_button,
-body main .android_button #iphone_ipad_button,
-body main .android_button #android_button,
-body main .android_button #web_app_button,
-body main .android_button #webside_button,
-body main .web_app #iphone_ipad_button,
-body main .web_app #android_button,
-body main .web_app #web_app_button,
-body main .web_app #webside_button,
-body main .web_side #iphone_ipad_button,
-body main .web_side #android_button,
-body main .web_side #web_app_button,
-body main .web_side #webside_button {
+#blur5 main .iphone_ipad #iphone_ipad_button,
+#blur5 main .iphone_ipad #android_button,
+#blur5 main .iphone_ipad #web_app_button,
+#blur5 main .iphone_ipad #webside_button,
+#blur5 main .android_button #iphone_ipad_button,
+#blur5 main .android_button #android_button,
+#blur5 main .android_button #web_app_button,
+#blur5 main .android_button #webside_button,
+#blur5 main .web_app #iphone_ipad_button,
+#blur5 main .web_app #android_button,
+#blur5 main .web_app #web_app_button,
+#blur5 main .web_app #webside_button,
+#blur5 main .web_side #iphone_ipad_button,
+#blur5 main .web_side #android_button,
+#blur5 main .web_side #web_app_button,
+#blur5 main .web_side #webside_button {
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
@@ -69,58 +81,58 @@ body main .web_side #webside_button {
   border-radius: 5px;
   text-decoration: none;
 }
-body main .iphone_ipad #iphone_ipad_button #icon,
-body main .iphone_ipad #android_button #icon,
-body main .iphone_ipad #web_app_button #icon,
-body main .iphone_ipad #webside_button #icon,
-body main .android_button #iphone_ipad_button #icon,
-body main .android_button #android_button #icon,
-body main .android_button #web_app_button #icon,
-body main .android_button #webside_button #icon,
-body main .web_app #iphone_ipad_button #icon,
-body main .web_app #android_button #icon,
-body main .web_app #web_app_button #icon,
-body main .web_app #webside_button #icon,
-body main .web_side #iphone_ipad_button #icon,
-body main .web_side #android_button #icon,
-body main .web_side #web_app_button #icon,
-body main .web_side #webside_button #icon {
+#blur5 main .iphone_ipad #iphone_ipad_button #icon,
+#blur5 main .iphone_ipad #android_button #icon,
+#blur5 main .iphone_ipad #web_app_button #icon,
+#blur5 main .iphone_ipad #webside_button #icon,
+#blur5 main .android_button #iphone_ipad_button #icon,
+#blur5 main .android_button #android_button #icon,
+#blur5 main .android_button #web_app_button #icon,
+#blur5 main .android_button #webside_button #icon,
+#blur5 main .web_app #iphone_ipad_button #icon,
+#blur5 main .web_app #android_button #icon,
+#blur5 main .web_app #web_app_button #icon,
+#blur5 main .web_app #webside_button #icon,
+#blur5 main .web_side #iphone_ipad_button #icon,
+#blur5 main .web_side #android_button #icon,
+#blur5 main .web_side #web_app_button #icon,
+#blur5 main .web_side #webside_button #icon {
   width: 40px;
 }
-body main .iphone_ipad #iphone_ipad_button #label,
-body main .iphone_ipad #android_button #label,
-body main .iphone_ipad #web_app_button #label,
-body main .iphone_ipad #webside_button #label,
-body main .android_button #iphone_ipad_button #label,
-body main .android_button #android_button #label,
-body main .android_button #web_app_button #label,
-body main .android_button #webside_button #label,
-body main .web_app #iphone_ipad_button #label,
-body main .web_app #android_button #label,
-body main .web_app #web_app_button #label,
-body main .web_app #webside_button #label,
-body main .web_side #iphone_ipad_button #label,
-body main .web_side #android_button #label,
-body main .web_side #web_app_button #label,
-body main .web_side #webside_button #label {
+#blur5 main .iphone_ipad #iphone_ipad_button #label,
+#blur5 main .iphone_ipad #android_button #label,
+#blur5 main .iphone_ipad #web_app_button #label,
+#blur5 main .iphone_ipad #webside_button #label,
+#blur5 main .android_button #iphone_ipad_button #label,
+#blur5 main .android_button #android_button #label,
+#blur5 main .android_button #web_app_button #label,
+#blur5 main .android_button #webside_button #label,
+#blur5 main .web_app #iphone_ipad_button #label,
+#blur5 main .web_app #android_button #label,
+#blur5 main .web_app #web_app_button #label,
+#blur5 main .web_app #webside_button #label,
+#blur5 main .web_side #iphone_ipad_button #label,
+#blur5 main .web_side #android_button #label,
+#blur5 main .web_side #web_app_button #label,
+#blur5 main .web_side #webside_button #label {
   margin: auto;
 }
-body main .iphone_ipad #apple_share,
-body main .iphone_ipad #android_share,
-body main .iphone_ipad #webApp_button,
-body main .iphone_ipad #webSide_button,
-body main .android_button #apple_share,
-body main .android_button #android_share,
-body main .android_button #webApp_button,
-body main .android_button #webSide_button,
-body main .web_app #apple_share,
-body main .web_app #android_share,
-body main .web_app #webApp_button,
-body main .web_app #webSide_button,
-body main .web_side #apple_share,
-body main .web_side #android_share,
-body main .web_side #webApp_button,
-body main .web_side #webSide_button {
+#blur5 main .iphone_ipad #apple_share,
+#blur5 main .iphone_ipad #android_share,
+#blur5 main .iphone_ipad #webApp_button,
+#blur5 main .iphone_ipad #webSide_button,
+#blur5 main .android_button #apple_share,
+#blur5 main .android_button #android_share,
+#blur5 main .android_button #webApp_button,
+#blur5 main .android_button #webSide_button,
+#blur5 main .web_app #apple_share,
+#blur5 main .web_app #android_share,
+#blur5 main .web_app #webApp_button,
+#blur5 main .web_app #webSide_button,
+#blur5 main .web_side #apple_share,
+#blur5 main .web_side #android_share,
+#blur5 main .web_side #webApp_button,
+#blur5 main .web_side #webSide_button {
   display: none;
   position: relative;
   bottom: 50px;
@@ -131,69 +143,69 @@ body main .web_side #webSide_button {
   width: 40px;
   border-radius: 40px;
 }
-body main #iphone_ipad_button:hover {
+#blur5 main #iphone_ipad_button:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #android_button:hover {
+#blur5 main #android_button:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #web_app_button:hover {
+#blur5 main #web_app_button:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #webside_button:hover {
+#blur5 main #webside_button:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main .social_media_icon {
+#blur5 main #blur3 {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
 }
-body main .social_media_icon #mail,
-body main .social_media_icon #facebook,
-body main .social_media_icon #instagram,
-body main .social_media_icon #linkedin,
-body main .social_media_icon #twitter {
+#blur5 main #blur3 #mail,
+#blur5 main #blur3 #facebook,
+#blur5 main #blur3 #instagram,
+#blur5 main #blur3 #linkedin,
+#blur5 main #blur3 #twitter {
   width: 30px;
   height: 30px;
   margin: 10px;
 }
-body main #mail:hover {
+#blur5 main #mail:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #facebook:hover {
+#blur5 main #facebook:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #instagram:hover {
+#blur5 main #instagram:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #linkedin:hover {
+#blur5 main #linkedin:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body main #twitter:hover {
+#blur5 main #twitter:hover {
   transform: scale(1.1);
   box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
 }
-body footer {
+#blur5 footer {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 200px;
 }
-body footer #linktree {
+#blur5 footer #linktree {
   font-size: 20px;
   color: rgb(0, 0, 0);
 }
-body .share {
+#blur5 .share {
   display: none;
   flex-direction: column;
   align-items: stretch;
@@ -207,13 +219,13 @@ body .share {
   margin: auto;
   border-radius: 20px;
 }
-body .share .subtitle .dd {
+#blur5 .share .subtitle .dd {
   display: flex;
   justify-content: center;
   padding: 30px;
   margin: 5px;
 }
-body .share .subtitle #close_button {
+#blur5 .share .subtitle #close_button {
   background: none;
   position: absolute;
   left: 340px;
@@ -224,19 +236,19 @@ body .share .subtitle #close_button {
   border-radius: 5px;
   cursor: pointer;
 }
-body .share .subtitle #close_button #close_icon {
+#blur5 .share .subtitle #close_button #close_icon {
   font-size: 20px;
 }
-body .share .subtitle #close_button:hover {
+#blur5 .share .subtitle #close_button:hover {
   background: rgba(209, 217, 224, 0.248);
 }
-body .share .social-media_plaform {
+#blur5 .share .social-media_plaform {
   padding: 4px;
   margin: 5px;
   line-height: 40px;
   margin-top: 13px;
 }
-body .share #social-media {
+#blur5 .share #social-media {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,20 +257,20 @@ body .share #social-media {
   border-radius: 10px;
   color: rgb(10, 11, 13);
 }
-body .share #social-media #snapchat,
-body .share #social-media #facebook,
-body .share #social-media #linkedin,
-body .share #social-media #twitter,
-body .share #social-media #whatsapp,
-body .share #social-media #messenger,
-body .share #social-media #email {
+#blur5 .share #social-media #snapchat,
+#blur5 .share #social-media #facebook,
+#blur5 .share #social-media #linkedin,
+#blur5 .share #social-media #twitter,
+#blur5 .share #social-media #whatsapp,
+#blur5 .share #social-media #messenger,
+#blur5 .share #social-media #email {
   width: 25px;
   height: 25px;
 }
-body .share #social-media:hover {
+#blur5 .share #social-media:hover {
   background-color: rgba(209, 217, 224, 0.248);
 }
-body .share .copy_link_button {
+#blur5 .share .copy_link_button {
   display: block;
   margin: auto;
   outline: none;
@@ -268,64 +280,64 @@ body .share .copy_link_button {
   border: 1px solid rgb(224, 226, 217);
   cursor: pointer;
 }
-body .share .copy_link_button .copy_link {
+#blur5 .share .copy_link_button .copy_link {
   display: flex;
   align-items: center;
   border-radius: 10px;
 }
-body .share .copy_link_button .copy_link .flex_1 {
+#blur5 .share .copy_link_button .copy_link .flex_1 {
   display: flex;
   align-items: center;
   width: 250px;
   padding: 7px;
   border-radius: 10px;
 }
-body .share .copy_link_button:hover {
+#blur5 .share .copy_link_button:hover {
   background-color: rgba(209, 217, 224, 0.248);
 }
-body .share #report_link {
+#blur5 .share #report_link {
   display: flex;
   text-decoration: none;
   margin-top: 15px;
   border-top: 1px solid rgb(224, 226, 217);
   color: rgb(10, 11, 13);
 }
-body .share #report_link .report_link {
+#blur5 .share #report_link .report_link {
   display: flex;
   align-items: center;
 }
-body .share #report_link .report_link #report_link2 {
+#blur5 .share #report_link .report_link #report_link2 {
   display: flex;
   align-items: center;
   width: 300px;
   padding: 5px;
   margin-left: 27px;
 }
-body .share #report_link:hover {
+#blur5 .share #report_link:hover {
   background-color: rgba(209, 217, 224, 0.248);
 }
-body .share .sign_in_linktree {
+#blur5 .share .sign_in_linktree {
   border-top: 1px groove rgba(0, 0, 0, 0.632);
   margin: auto;
   padding: 15px;
 }
-body .share .sign_in_linktree #sign_in_linktree {
+#blur5 .share .sign_in_linktree #sign_in_linktree {
   text-align: start;
   display: flex;
   flex-direction: column;
 }
-body .share .sign_in_linktree #sign_in_linktree #title {
+#blur5 .share .sign_in_linktree #sign_in_linktree #title {
   padding: 3px;
   line-height: 22px;
 }
-body .share .sign_in_linktree #sign_in_linktree #sign_up_button {
+#blur5 .share .sign_in_linktree #sign_in_linktree #sign_up_button {
   background: black;
   text-align: center;
   padding: 15px;
   border-radius: 20px;
   margin-top: 10px;
 }
-body .share .sign_in_linktree #sign_in_linktree #find_more_button {
+#blur5 .share .sign_in_linktree #sign_in_linktree #find_more_button {
   background: none;
   text-align: center;
   padding: 15px;
@@ -333,6 +345,6 @@ body .share .sign_in_linktree #sign_in_linktree #find_more_button {
   margin-top: 10px;
   border: 1px solid rgb(224, 226, 217);
 }
-body .share .sign_in_linktree #sign_in_linktree #find_more_button:hover {
+#blur5 .share .sign_in_linktree #sign_in_linktree #find_more_button:hover {
   background-color: rgba(209, 217, 224, 0.248);
 }/*# sourceMappingURL=style.css.map */
