@@ -8,7 +8,7 @@ const webSide = document.querySelector(".web_side");
 const webSideButton = document.querySelector("#webSide_button");
 const share = document.querySelector(".share");
 const close_button = document.querySelector("#close_button");
-const linkTree1 = document.querySelector(".link1");
+let linkTree1 = document.querySelector(".link1");
 const linkTree2 = document.querySelector(".link2");
 const menu_button = document.querySelector("#menu_button");
 const copy_link_button = document.querySelector(".copy_link_button");
@@ -139,12 +139,30 @@ webSideButton.addEventListener("click", () => {
     h.android1();
   });
 });
+
 copy_link_button.addEventListener("click", () => {
+  copy();
   copied_text.innerText = "Copied!";
   copied_text.style.color = "green";
   copied_text.style.fontSize = "17px";
+
   setTimeout(() => {
     copied_text.innerText = "Copy";
     copied_text.style.color = "black";
   }, 1000);
 });
+function copy() {
+  // get the container
+  const element = document.querySelector("#example1");
+  // Create a fake `textarea` and set the contents to the text
+  // you want to copy
+  const storage = document.createElement("textarea");
+  storage.value = element.innerHTML;
+  element.appendChild(storage);
+
+  // Copy the text in the fake `textarea` and remove the `textarea`
+  storage.select();
+  storage.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  element.removeChild(storage);
+}
