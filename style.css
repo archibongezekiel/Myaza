@@ -6,7 +6,7 @@
 }
 
 #blur5 {
-  background-image: linear-gradient(to right, rgba(103, 16, 242, 0.4705882353), rgba(201, 190, 190, 0.954));
+  background-image: linear-gradient(to right, #dad6fc, rgba(201, 190, 190, 0.824));
   font-family: "Domine", serif;
 }
 #blur5 .blur1,
