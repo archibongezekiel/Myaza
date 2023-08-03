@@ -234,7 +234,7 @@ body {
       #welcome_text {
         display: flex;
         align-items: center;
-        font-size: 90px;
+        font-size: 60px;
         color: #2b0079;
         font-family: "Work Sans", sans-serif;
         #emoji {
@@ -256,7 +256,7 @@ body {
         display: flex;
         flex-direction: column;
         #email_label {
-          font-size: 38px;
+          font-size: 37px;
           color: #2b0079;
           margin-bottom: 20px;
           font-family: "Work Sans", sans-serif;
@@ -283,7 +283,7 @@ body {
           color: #2b0079;
           margin-bottom: 20px;
           font-family: "Work Sans", sans-serif;
-          font-size: 40px;
+          font-size: 37px;
         }
         #password {
           border: 3px solid #d3cffb;
@@ -320,7 +320,7 @@ body {
         a {
           text-decoration: none;
           color: #3a25f4;
-          font-size: 40px;
+          font-size: 35px;
           font-family: "Work Sans", sans-serif;
           font-weight: bold;
         }
@@ -329,7 +329,7 @@ body {
         outline: none;
         border: none;
         width: 100%;
-        height: 130px;
+        height: 110px;
         background-color: #5645f5;
         color: white;
         font-size: 41px;
@@ -342,7 +342,7 @@ body {
         text-align: center;
         #link_label {
           color: #5a5675;
-          font-size: 30px;
+          font-size: 40px;
           font-family: "Work Sans", sans-serif;
         }
         #link {

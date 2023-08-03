@@ -229,7 +229,7 @@ body .l #j .container2 .from_container #signup_link #link {
   .container2 #container1 #welcome_text {
     display: flex;
     align-items: center;
-    font-size: 90px;
+    font-size: 60px;
     color: #2b0079;
     font-family: "Work Sans", sans-serif;
   }
@@ -251,7 +251,7 @@ body .l #j .container2 .from_container #signup_link #link {
     flex-direction: column;
   }
   .container2 .from_container #email_container #email_label {
-    font-size: 38px;
+    font-size: 37px;
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
@@ -278,7 +278,7 @@ body .l #j .container2 .from_container #signup_link #link {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
-    font-size: 40px;
+    font-size: 37px;
   }
   .container2 .from_container #password_container #password {
     border: 3px solid #d3cffb;
@@ -314,7 +314,7 @@ body .l #j .container2 .from_container #signup_link #link {
   .container2 .from_container #forget_button_link a {
     text-decoration: none;
     color: #3a25f4;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Work Sans", sans-serif;
     font-weight: bold;
   }
@@ -322,7 +322,7 @@ body .l #j .container2 .from_container #signup_link #link {
     outline: none;
     border: none;
     width: 100%;
-    height: 130px;
+    height: 110px;
     background-color: #5645f5;
     color: white;
     font-size: 41px;
@@ -336,7 +336,7 @@ body .l #j .container2 .from_container #signup_link #link {
   }
   .container2 .from_container #signup_link #link_label {
     color: #5a5675;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Work Sans", sans-serif;
   }
   .container2 .from_container #signup_link #link {
