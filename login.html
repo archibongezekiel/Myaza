@@ -91,29 +91,39 @@
         <div id="j">
           <div class="container2">
             <div id="container1">
-              <div id="container2">
-                <h1 id="welcome_text">Welcome</h1>
-                <span id="emoji">🙇🏾‍♀️</span>
-              </div>
+              <h1 id="welcome_text">Welcome <span id="emoji">🙇🏾‍♀️</span></h1>
               <p id="p_tag">Send and receive without borders.</p>
             </div>
-            <form action="">
+            <form action="" class="from_container">
               <div>
-                <div style="display: flex; flex-direction: column">
-                  <label for="">Email Address</label>
-                  <input type="email" style="width: 80%" />
+                <div id="email_container">
+                  <label for="email" id="email_label">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="E.g Wale@Azaman.com"
+                    required
+                  />
                 </div>
                 <!---->
-                <div style="display: flex; flex-direction: column">
-                  <label for="">Password</label>
-                  <input type="password" style="width: 80%" />
-                  <span><button>Show</button></span>
+                <div id="password_container">
+                  <label for="password" id="password_label">Password</label>
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="password"
+                    required
+                  />
+                  <button id="show_password"><span>Show</span></button>
                 </div>
                 <!---->
-                <div><a href="">I Forgot My Password!</a></div>
-                <button>Login</button>
-                <div>
-                  <span>Don’t have an account?</span> <a href=""> Signup</a>
+                <div id="forget_button_link">
+                  <a href="">I Forgot My Password!</a>
+                </div>
+                <button id="login_button">Login</button>
+                <div id="signup_link">
+                  <span id="link_label">Don’t have an account?</span>
+                  <a href="" id="link"> Signup</a>
                 </div>
               </div>
             </form>

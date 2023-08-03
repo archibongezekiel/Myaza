@@ -67,31 +67,132 @@ body .l #j {
   overflow: scroll;
   width: 50%;
   height: 100vh;
-  border: 1px solid blue;
 }
 body .l #j .container2 {
-  margin-top: 150px;
-  margin-left: 100px;
-  border: 1px solid red;
+  margin-top: 140px;
+  margin-left: 80px;
   width: 70%;
-  height: 58%;
+  height: 70%;
 }
 body .l #j .container2 #container1 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
-body .l #j .container2 #container1 #container2 {
+body .l #j .container2 #container1 #welcome_text {
   display: flex;
   align-items: center;
-}
-body .l #j .container2 #container1 #container2 #welcome_text {
   font-size: 47px;
   color: #2b0079;
+  font-family: "Work Sans", sans-serif;
 }
-body .l #j .container2 #container1 #container2 #emoji {
+body .l #j .container2 #container1 #welcome_text #emoji {
   font-size: 47px;
+  padding: 5px;
 }
 body .l #j .container2 #container1 #p_tag {
-  font-size: 20px;
+  font-size: 19px;
   color: #5a5675;
+  font-family: "Work Sans", sans-serif;
+  padding: 5px;
+}
+body .l #j .container2 .from_container {
+  margin-top: 27px;
+}
+body .l #j .container2 .from_container #email_container {
+  display: flex;
+  flex-direction: column;
+}
+body .l #j .container2 .from_container #email_container #email_label {
+  color: #2b0079;
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+body .l #j .container2 .from_container #email_container #email {
+  border: 1px solid #d3cffb;
+  outline: none;
+  width: 86%;
+  height: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+body .l #j .container2 .from_container #email_container #email:focus {
+  border: 1px solid #5645f5;
+  background: #eae7fe;
+}
+body .l #j .container2 .from_container #password_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+body .l #j .container2 .from_container #password_container #password_label {
+  color: #2b0079;
+  margin-bottom: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+body .l #j .container2 .from_container #password_container #password {
+  border: 1px solid #d3cffb;
+  outline: none;
+  width: 86%;
+  height: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+body .l #j .container2 .from_container #password_container #password:focus {
+  border: 1px solid #5645f5;
+  background: #eae7fe;
+}
+body .l #j .container2 .from_container #password_container #show_password {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 60px;
+  height: 40px;
+  position: relative;
+  left: 360px;
+  bottom: 45px;
+  color: #3a25f4;
+  font-size: 15px;
+  font-weight: bold;
+}
+body .l #j .container2 .from_container #forget_button_link {
+  text-decoration: none;
+  width: 170px;
+  margin-left: 250px;
+  text-align: end;
+}
+body .l #j .container2 .from_container #forget_button_link a {
+  text-decoration: none;
+  color: #3a25f4;
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+body .l #j .container2 .from_container #login_button {
+  outline: none;
+  border: none;
+  width: 209px;
+  height: 57px;
+  background-color: #5645f5;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 59px;
+}
+body .l #j .container2 .from_container #signup_link {
+  margin-top: 40px;
+  width: 250px;
+}
+body .l #j .container2 .from_container #signup_link #link_label {
+  color: #5a5675;
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+}
+body .l #j .container2 .from_container #signup_link #link {
+  text-decoration: none;
+  color: #3a25f4;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
 }/*# sourceMappingURL=login.css.map */
