@@ -203,18 +203,19 @@ body {
   }
 }
 // android
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1080px) {
   #d {
     display: none;
   }
   #image_header {
     border: 1px solid red;
-    height: 80px;
+    height: 300px;
+
     .logo_header {
       margin: auto;
       margin-top: 20px;
-      margin-left: 50px;
-      width: 110px;
+      margin-left: 90px;
+      width: 220px;
       border: 1px solid red;
     }
   }

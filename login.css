@@ -196,19 +196,19 @@ body .l #j .container2 .from_container #signup_link #link {
   font-family: "Work Sans", sans-serif;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1080px) {
   #d {
     display: none;
   }
   #image_header {
     border: 1px solid red;
-    height: 80px;
+    height: 300px;
   }
   #image_header .logo_header {
     margin: auto;
     margin-top: 20px;
-    margin-left: 50px;
-    width: 110px;
+    margin-left: 90px;
+    width: 220px;
     border: 1px solid red;
   }
   .container2 {
