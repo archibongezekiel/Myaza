@@ -200,39 +200,43 @@ body .l #j .container2 .from_container #signup_link #link {
   #d {
     display: none;
   }
+  body {
+    background: #f6f5fe;
+  }
   .j {
     width: 1080px;
+    height: 2000px;
     border: 1px solid orange;
   }
   .image_header,
   #image_header {
     box-shadow: 0px 1px 19px #3a25f4;
-    height: 210px;
+    height: 200px;
     overflow: hidden;
     width: 1080px;
   }
   .image_header .logo_header,
   #image_header .logo_header {
     margin-top: 70px;
-    margin-left: 90px;
+    margin-left: 130px;
     width: 270px;
   }
   .container2 {
     width: 800px;
-    height: 100%;
+    height: 1600px;
     border: 1px solid red;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 110px;
   }
   #container1 {
-    margin-top: 20px;
+    margin-top: 0px;
     height: 200px;
     border: 1px solid blue;
   }
   #welcome_text {
     display: flex;
     align-items: center;
-    font-size: 60px;
+    font-size: 57px;
     color: #2b0079;
     font-family: "Work Sans", sans-serif;
   }
@@ -258,7 +262,7 @@ body .l #j .container2 .from_container #signup_link #link {
     border: 2px solid #d3cffb;
     outline: none;
     width: 100%;
-    height: 120px;
+    height: 100px;
     padding: 20px;
     border-radius: 10px;
     font-size: 40px;
@@ -282,7 +286,7 @@ body .l #j .container2 .from_container #signup_link #link {
     border: 3px solid #d3cffb;
     outline: none;
     width: 100%;
-    height: 110px;
+    height: 100px;
     padding: 20px;
     font-size: 40px;
     border-radius: 10px;
@@ -298,8 +302,8 @@ body .l #j .container2 .from_container #signup_link #link {
     width: 120px;
     height: 80px;
     position: relative;
-    left: 770px;
-    bottom: 100px;
+    left: 660px;
+    bottom: 90px;
     color: #3a25f4;
     font-size: 40px;
     font-weight: bold;
@@ -325,11 +329,11 @@ body .l #j .container2 .from_container #signup_link #link {
     color: white;
     font-size: 41px;
     font-weight: bold;
-    border-radius: 6px;
-    margin-top: 300px;
+    border-radius: 9px;
+    margin-top: 200px;
   }
   #signup_link {
-    margin-top: 70px;
+    margin-top: 40px;
     text-align: center;
   }
   #link_label {
