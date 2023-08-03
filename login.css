@@ -200,63 +200,61 @@ body .l #j .container2 .from_container #signup_link #link {
   #d {
     display: none;
   }
+  .j {
+    width: 1080px;
+    border: 1px solid orange;
+  }
+  .image_header,
   #image_header {
     box-shadow: 0px 1px 19px #3a25f4;
     height: 210px;
     overflow: hidden;
     width: 1080px;
   }
+  .image_header .logo_header,
   #image_header .logo_header {
     margin-top: 70px;
     margin-left: 90px;
     width: 270px;
   }
-  #j {
-    width: 1080px;
-    height: 2400px;
-  }
   .container2 {
-    overflow: scroll;
-    margin: auto;
-    width: 87%;
+    width: 800px;
     height: 100%;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 100px;
   }
-  .container2 #container1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+  #container1 {
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid blue;
   }
-  .container2 #container1 #welcome_text {
+  #welcome_text {
     display: flex;
     align-items: center;
     font-size: 60px;
     color: #2b0079;
     font-family: "Work Sans", sans-serif;
   }
-  .container2 #container1 #welcome_text #emoji {
-    font-size: 90px;
-    padding: 15px;
+  #emoji {
+    font-size: 60px;
   }
-  .container2 #container1 #p_tag {
-    font-size: 40px;
+  #p_tag {
+    font-size: 38px;
     color: #5a5675;
-    font-family: "Work Sans", sans-serif;
-    padding: 5px;
   }
-  .container2 .from_container {
-    margin-top: 100px;
-  }
-  .container2 .from_container #email_container {
+  #email_container {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
   }
-  .container2 .from_container #email_container #email_label {
+  #email_label {
     font-size: 37px;
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
   }
-  .container2 .from_container #email_container #email {
+  #email {
     border: 2px solid #d3cffb;
     outline: none;
     width: 100%;
@@ -265,22 +263,22 @@ body .l #j .container2 .from_container #signup_link #link {
     border-radius: 10px;
     font-size: 40px;
   }
-  .container2 .from_container #email_container #email:focus {
+  #email:focus {
     border: 2px solid #5645f5;
     background: #eae7fe;
   }
-  .container2 .from_container #password_container {
+  #password_container {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
   }
-  .container2 .from_container #password_container #password_label {
+  #password_label {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 37px;
   }
-  .container2 .from_container #password_container #password {
+  #password {
     border: 3px solid #d3cffb;
     outline: none;
     width: 100%;
@@ -289,36 +287,36 @@ body .l #j .container2 .from_container #signup_link #link {
     font-size: 40px;
     border-radius: 10px;
   }
-  .container2 .from_container #password_container #password:focus {
+  #password:focus {
     border: 1px solid #5645f5;
     background: #eae7fe;
   }
-  .container2 .from_container #password_container #show_password {
+  #show_password {
     background: transparent;
     outline: none;
     border: none;
     width: 120px;
     height: 80px;
     position: relative;
-    left: 780px;
+    left: 770px;
     bottom: 100px;
     color: #3a25f4;
     font-size: 40px;
     font-weight: bold;
     padding: 5px;
   }
-  .container2 .from_container #forget_button_link {
+  #forget_button_link {
     margin-left: 290px;
     text-align: end;
   }
-  .container2 .from_container #forget_button_link a {
+  a {
     text-decoration: none;
     color: #3a25f4;
     font-size: 35px;
     font-family: "Work Sans", sans-serif;
     font-weight: bold;
   }
-  .container2 .from_container #login_button {
+  #login_button {
     outline: none;
     border: none;
     width: 100%;
@@ -328,18 +326,18 @@ body .l #j .container2 .from_container #signup_link #link {
     font-size: 41px;
     font-weight: bold;
     border-radius: 6px;
-    margin-top: 400px;
+    margin-top: 300px;
   }
-  .container2 .from_container #signup_link {
+  #signup_link {
     margin-top: 70px;
     text-align: center;
   }
-  .container2 .from_container #signup_link #link_label {
+  #link_label {
     color: #5a5675;
     font-size: 40px;
     font-family: "Work Sans", sans-serif;
   }
-  .container2 .from_container #signup_link #link {
+  #link {
     text-decoration: none;
     color: #3a25f4;
     font-size: 40px;

@@ -208,7 +208,11 @@ body {
     display: none;
   }
   .j {
+    width: 1080px;
+
+    border: 1px solid orange;
   }
+  .image_header,
   #image_header {
     box-shadow: 0px 1px 19px #3a25f4;
     height: 210px;
@@ -220,141 +224,132 @@ body {
       width: 270px;
     }
   }
-  #j {
-    width: 1080px;
-    height: 2400px;
-  }
   .container2 {
-    overflow: scroll;
-    margin: auto;
-    width: 87%;
+    width: 800px;
     height: 100%;
-    #container1 {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 20px;
-      #welcome_text {
-        display: flex;
-        align-items: center;
-        font-size: 60px;
-        color: #2b0079;
-        font-family: "Work Sans", sans-serif;
-        #emoji {
-          font-size: 90px;
-          padding: 15px;
-        }
-      }
-      #p_tag {
-        font-size: 40px;
-        color: #5a5675;
-        font-family: "Work Sans", sans-serif;
-        padding: 5px;
-      }
-    }
-    .from_container {
-      margin-top: 100px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #container1 {
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid blue;
+  }
+  #welcome_text {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: #2b0079;
+    font-family: "Work Sans", sans-serif;
+  }
+  #emoji {
+    font-size: 60px;
+  }
+  #p_tag {
+    font-size: 38px;
+    color: #5a5675;
+  }
 
-      #email_container {
-        display: flex;
-        flex-direction: column;
-        #email_label {
-          font-size: 37px;
-          color: #2b0079;
-          margin-bottom: 20px;
-          font-family: "Work Sans", sans-serif;
-        }
-        #email {
-          border: 2px solid #d3cffb;
-          outline: none;
-          width: 100%;
-          height: 120px;
-          padding: 20px;
-          border-radius: 10px;
-          font-size: 40px;
-        }
-        #email:focus {
-          border: 2px solid #5645f5;
-          background: #eae7fe;
-        }
-      }
-      #password_container {
-        display: flex;
-        flex-direction: column;
-        margin-top: 40px;
-        #password_label {
-          color: #2b0079;
-          margin-bottom: 20px;
-          font-family: "Work Sans", sans-serif;
-          font-size: 37px;
-        }
-        #password {
-          border: 3px solid #d3cffb;
-          outline: none;
-          width: 100%;
-          height: 110px;
-          padding: 20px;
-          font-size: 40px;
-          border-radius: 10px;
-        }
-        #password:focus {
-          border: 1px solid #5645f5;
-          background: #eae7fe;
-        }
-        #show_password {
-          background: transparent;
-          outline: none;
-          border: none;
-          width: 120px;
-          height: 80px;
-          position: relative;
-          left: 780px;
-          bottom: 100px;
-          color: #3a25f4;
-          font-size: 40px;
-          font-weight: bold;
-          padding: 5px;
-        }
-      }
-      #forget_button_link {
-        margin-left: 290px;
-        text-align: end;
-
-        a {
-          text-decoration: none;
-          color: #3a25f4;
-          font-size: 35px;
-          font-family: "Work Sans", sans-serif;
-          font-weight: bold;
-        }
-      }
-      #login_button {
-        outline: none;
-        border: none;
-        width: 100%;
-        height: 110px;
-        background-color: #5645f5;
-        color: white;
-        font-size: 41px;
-        font-weight: bold;
-        border-radius: 6px;
-        margin-top: 400px;
-      }
-      #signup_link {
-        margin-top: 70px;
-        text-align: center;
-        #link_label {
-          color: #5a5675;
-          font-size: 40px;
-          font-family: "Work Sans", sans-serif;
-        }
-        #link {
-          text-decoration: none;
-          color: #3a25f4;
-          font-size: 40px;
-          font-weight: 700;
-          font-family: "Work Sans", sans-serif;
-        }
-      }
-    }
+  #email_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  #email_label {
+    font-size: 37px;
+    color: #2b0079;
+    margin-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+  #email {
+    border: 2px solid #d3cffb;
+    outline: none;
+    width: 100%;
+    height: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+  }
+  #email:focus {
+    border: 2px solid #5645f5;
+    background: #eae7fe;
+  }
+  #password_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  #password_label {
+    color: #2b0079;
+    margin-bottom: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 37px;
+  }
+  #password {
+    border: 3px solid #d3cffb;
+    outline: none;
+    width: 100%;
+    height: 110px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10px;
+  }
+  #password:focus {
+    border: 1px solid #5645f5;
+    background: #eae7fe;
+  }
+  #show_password {
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 80px;
+    position: relative;
+    left: 770px;
+    bottom: 100px;
+    color: #3a25f4;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  #forget_button_link {
+    margin-left: 290px;
+    text-align: end;
+  }
+  a {
+    text-decoration: none;
+    color: #3a25f4;
+    font-size: 35px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+  }
+  #login_button {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 110px;
+    background-color: #5645f5;
+    color: white;
+    font-size: 41px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 300px;
+  }
+  #signup_link {
+    margin-top: 70px;
+    text-align: center;
+  }
+  #link_label {
+    color: #5a5675;
+    font-size: 40px;
+    font-family: "Work Sans", sans-serif;
+  }
+  #link {
+    text-decoration: none;
+    color: #3a25f4;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
   }
 }
