@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="login.css" />
   </head>
   <body>
-    <main>
-      <section class="l">
-        <div class="logo_webApp_image">
+    <main id="d">
+      <div class="l">
+        <section class="logo_webApp_image">
           <div id="logo_svg">
             <img src="icons/logo.svg" alt="" id="logo_svg_image" />
           </div>
@@ -85,10 +85,11 @@
             </div>
             <!---->
           </div>
-        </div>
+        </section>
+
         <!---->
         <!---->
-        <div id="j">
+        <section id="j">
           <div class="container2">
             <div id="container1">
               <h1 id="welcome_text">Welcome <span id="emoji">🙇🏾‍♀️</span></h1>
@@ -128,10 +129,59 @@
               </div>
             </form>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
 
+    <!-- android-->
+    <div class="j">
+      <section>
+        <div id="image_header">
+          <img src="icons/logo.svg" alt="" class="logo_header" />
+        </div>
+      </section>
+      <section id="j">
+        <div class="container2">
+          <div id="container1">
+            <h1 id="welcome_text">Welcome <span id="emoji">🙇🏾‍♀️</span></h1>
+            <p id="p_tag">Send and receive without borders.</p>
+          </div>
+          <form action="" class="from_container">
+            <div>
+              <div id="email_container">
+                <label for="email" id="email_label">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="E.g Wale@Azaman.com"
+                  required
+                />
+              </div>
+              <!---->
+              <div id="password_container">
+                <label for="password" id="password_label">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="password"
+                  required
+                />
+                <button id="show_password"><span>Show</span></button>
+              </div>
+              <!---->
+              <div id="forget_button_link">
+                <a href="">I Forgot My Password!</a>
+              </div>
+              <button id="login_button">Login</button>
+              <div id="signup_link">
+                <span id="link_label">Don’t have an account?</span>
+                <a href="" id="link"> Signup</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
     <script src="login.js"></script>
   </body>
 </html>
