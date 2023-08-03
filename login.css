@@ -224,14 +224,12 @@ body .l #j .container2 .from_container #signup_link #link {
   .container2 {
     width: 800px;
     height: 1600px;
-    border: 1px solid red;
     margin: auto;
     margin-top: 110px;
   }
   #container1 {
     margin-top: 0px;
     height: 200px;
-    border: 1px solid blue;
   }
   #welcome_text {
     display: flex;
