@@ -217,7 +217,6 @@
   }
   .j {
     width: 1080px;
-
     border: 6px solid orange;
   }
   .image_header,
@@ -360,8 +359,7 @@
     font-family: "Work Sans", sans-serif;
   }
   #footer {
-    position: relative;
-    bottom: 340px;
+    height: 100px;
     border: 1px solid red;
     // box-shadow: 0px 1px 19px #3a25f4;
     overflow: hidden;

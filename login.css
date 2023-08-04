@@ -350,8 +350,7 @@
     font-family: "Work Sans", sans-serif;
   }
   #footer {
-    position: relative;
-    bottom: 340px;
+    height: 100px;
     border: 1px solid red;
     overflow: hidden;
   }
