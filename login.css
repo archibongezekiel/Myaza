@@ -5,9 +5,12 @@
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1090px) {
   body .j {
-    display: non;
+    display: none;
+  }
+  body #footer {
+    display: none;
   }
   body .l {
     display: flex;
@@ -349,7 +352,7 @@
   }
   #footer {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     padding: 15px;
     font-family: Work Sans, sans-serif;
     position: fixed;
@@ -358,8 +361,15 @@
     width: 1080px;
     height: 290px;
   }
-  #google_play {
-    font-size: larger;
-    width: 400px;
+  .close_icon_container {
+    text-align: end;
+  }
+  #close_icon {
+    font-size: 60px;
+    color: #3a25f4;
+  }
+  #footer1 {
+    display: flex;
+    align-items: center;
   }
 }/*# sourceMappingURL=login.css.map */
