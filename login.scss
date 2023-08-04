@@ -217,12 +217,13 @@
   }
   .j {
     width: 1080px;
+    height: 2400px;
+    border: 5px solid red;
   }
   .image_header,
   #image_header {
     box-shadow: 0px 1px 19px #3a25f4;
     height: 200px;
-
     width: 1080px;
     .logo_header {
       margin-top: 70px;
@@ -358,12 +359,15 @@
     font-family: "Work Sans", sans-serif;
   }
   #footer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-family: Work Sans, sans-serif;
+    position: fixed;
+    bottom: 0;
     box-shadow: 0px 1px 19px #3a25f4;
-    height: 400px;
-    overflow: hidden;
     width: 1080px;
-    // box-shadow: 0px 1px 19px #3a25f4;
-    overflow: hidden;
+    height: 290px;
   }
   #google_play {
     font-size: larger;
