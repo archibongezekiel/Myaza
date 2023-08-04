@@ -351,8 +351,8 @@
   }
   #footer {
     position: relative;
-    bottom: 300px;
-    box-shadow: 0px 1px 19px #3a25f4;
+    bottom: 340px;
+    border: 1px solid red;
     overflow: hidden;
   }
   #google_play {
