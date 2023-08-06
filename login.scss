@@ -373,6 +373,13 @@
   .close_icon_container {
     text-align: end;
   }
+  #close_button {
+    margin-right: 40px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
   #close_icon {
     font-size: 60px;
     color: #3a25f4;
