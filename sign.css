@@ -77,8 +77,8 @@
   body .l #j .container2 {
     margin-top: 140px;
     margin-left: 80px;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 100%;
   }
   body .l #j .container2 #container1 {
     display: flex;
@@ -87,7 +87,7 @@
   }
   body .l #j .container2 #container1 #welcome_text {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     font-size: 47px;
     color: #2b0079;
     font-family: "Work Sans", sans-serif;
@@ -118,7 +118,7 @@
   body .l #j .container2 .from_container #email_container #email {
     border: 1px solid #d3cffb;
     outline: none;
-    width: 86%;
+    width: 100%;
     height: 50px;
     padding: 20px;
     border-radius: 4px;
@@ -127,10 +127,60 @@
     border: 1px solid #5645f5;
     background: #eae7fe;
   }
+  body .l #j .container2 .from_container .User_name_input {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  body .l #j .container2 .from_container .User_name_input #firstName_container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .l #j .container2 .from_container .User_name_input #firstName_container #firstName_label {
+    color: #2b0079;
+    margin-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+  }
+  body .l #j .container2 .from_container .User_name_input #firstName_container #firstName_input {
+    border: 1px solid #d3cffb;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  body .l #j .container2 .from_container .User_name_input #firstName_container #firstName_input:focus {
+    border: 1px solid #5645f5;
+    background: #eae7fe;
+  }
+  body .l #j .container2 .from_container .User_name_input #lastName_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  body .l #j .container2 .from_container .User_name_input #lastName_container #lastName_label {
+    color: #2b0079;
+    margin-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+  }
+  body .l #j .container2 .from_container .User_name_input #lastName_container #lastName_input {
+    border: 1px solid #d3cffb;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  body .l #j .container2 .from_container .User_name_input #lastName_container #lastName_input:focus {
+    border: 1px solid #5645f5;
+    background: #eae7fe;
+  }
   body .l #j .container2 .from_container #password_container {
     display: flex;
     flex-direction: column;
-    margin-top: 17px;
+    margin-top: 15px;
   }
   body .l #j .container2 .from_container #password_container #password_label {
     color: #2b0079;
@@ -141,7 +191,7 @@
   body .l #j .container2 .from_container #password_container #password {
     border: 1px solid #d3cffb;
     outline: none;
-    width: 86%;
+    width: 100%;
     height: 50px;
     padding: 20px;
     border-radius: 4px;
@@ -162,19 +212,64 @@
     color: #3a25f4;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
+  }
+  body .l #j .container2 .from_container #confirm_password_container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .l #j .container2 .from_container #confirm_password_container #confirm_password_label {
+    color: #2b0079;
+    margin-bottom: 10px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 13px;
+  }
+  body .l #j .container2 .from_container #confirm_password_container #confirm_password_input {
+    border: 1px solid #d3cffb;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  body .l #j .container2 .from_container #confirm_password_container #confirm_show_password {
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 60px;
+    height: 40px;
+    position: relative;
+    left: 360px;
+    bottom: 45px;
+    color: #3a25f4;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  body .l #j .container2 .from_container #confirm_password_container #confirm_password_input:focus {
+    border: 1px solid #5645f5;
+    background: #eae7fe;
   }
   body .l #j .container2 .from_container #forget_button_link {
-    text-decoration: none;
-    width: 170px;
-    margin-left: 250px;
-    text-align: end;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
   }
-  body .l #j .container2 .from_container #forget_button_link a {
+  body .l #j .container2 .from_container #forget_button_link #paragrah {
     text-decoration: none;
-    color: #3a25f4;
+    color: #635f7d;
+    font-size: 14px;
+    margin-left: 6px;
+  }
+  body .l #j .container2 .from_container #forget_button_link #paragrah #terms_and_condition {
+    text-decoration: none;
     font-size: 13px;
-    font-family: "Work Sans", sans-serif;
-    font-weight: bold;
+    color: #451f8a;
+  }
+  body .l #j .container2 .from_container #forget_button_link #paragrah #privacy_policy {
+    text-decoration: none;
+    font-size: 13px;
+    color: #451f8a;
   }
   body .l #j .container2 .from_container #login_button {
     outline: none;
@@ -186,200 +281,23 @@
     font-size: 15px;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 59px;
-    cursor: not-allowed;
+    margin-top: 10px;
+    cursor: no-drop;
   }
   body .l #j .container2 .from_container #signup_link {
     margin-top: 40px;
     width: 250px;
   }
   body .l #j .container2 .from_container #signup_link #link_label {
-    color: #5a5675;
+    color: #2b0079;
     font-size: 15px;
     font-family: "Work Sans", sans-serif;
   }
   body .l #j .container2 .from_container #signup_link #link {
     text-decoration: none;
-    color: #3a25f4;
+    color: #5645f5;
     font-size: 15px;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
   }
-}
-@media screen and (max-width: 1080px) {
-  #d {
-    display: none;
-  }
-  body {
-    background: #f6f5fe;
-  }
-  .j {
-    width: 1080px;
-  }
-  .image_header,
-  #image_header {
-    box-shadow: 0px 1px 19px #3a25f4;
-    height: 200px;
-    width: 1080px;
-  }
-  .image_header .logo_header,
-  #image_header .logo_header {
-    margin-top: 70px;
-    margin-left: 130px;
-    width: 270px;
-  }
-  .container2 {
-    width: 800px;
-    height: 1600px;
-    margin: auto;
-    margin-top: 110px;
-  }
-  #container1 {
-    margin-top: 0px;
-    height: 200px;
-  }
-  #welcome_text {
-    display: flex;
-    align-items: center;
-    font-size: 57px;
-    color: #2b0079;
-    font-family: "Work Sans", sans-serif;
-  }
-  #emoji {
-    font-size: 60px;
-  }
-  #p_tag {
-    font-size: 38px;
-    color: #5a5675;
-  }
-  #email_container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  #email_label {
-    font-size: 37px;
-    color: #2b0079;
-    margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
-  }
-  #email {
-    border: 2px solid #d3cffb;
-    outline: none;
-    width: 100%;
-    height: 100px;
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 30px;
-  }
-  #email:focus {
-    border: 1px solid #5645f5;
-    background: #eae7fe;
-  }
-  #password_container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-  }
-  #password_label {
-    color: #2b0079;
-    margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
-    font-size: 37px;
-  }
-  #password {
-    border: 3px solid #d3cffb;
-    outline: none;
-    width: 100%;
-    height: 100px;
-    padding: 20px;
-    font-size: 30px;
-    border-radius: 10px;
-  }
-  #password:focus {
-    border: 1px solid #5645f5;
-    background: #eae7fe;
-  }
-  #show_password {
-    background: transparent;
-    outline: none;
-    border: none;
-    width: 120px;
-    height: 80px;
-    position: relative;
-    left: 660px;
-    bottom: 90px;
-    color: #3a25f4;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 5px;
-  }
-  #forget_button_link {
-    margin-left: 290px;
-    text-align: end;
-  }
-  a {
-    text-decoration: none;
-    color: #3a25f4;
-    font-size: 35px;
-    font-family: "Work Sans", sans-serif;
-    font-weight: bold;
-  }
-  #login_button {
-    outline: none;
-    border: none;
-    width: 100%;
-    height: 110px;
-    background-color: #5645f5;
-    color: white;
-    font-size: 41px;
-    font-weight: bold;
-    border-radius: 9px;
-    margin-top: 200px;
-  }
-  #signup_link {
-    margin-top: 40px;
-    text-align: center;
-  }
-  #link_label {
-    color: #5a5675;
-    font-size: 40px;
-    font-family: "Work Sans", sans-serif;
-  }
-  #link {
-    text-decoration: none;
-    color: #3a25f4;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "Work Sans", sans-serif;
-  }
-  #footer {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    font-family: Work Sans, sans-serif;
-    position: fixed;
-    bottom: 0;
-    box-shadow: 0px 1px 19px #3a25f4;
-    width: 1080px;
-    height: 290px;
-  }
-  .close_icon_container {
-    text-align: end;
-  }
-  #close_button {
-    margin-right: 40px;
-    width: 90px;
-    outline: none;
-    border: none;
-    background: transparent;
-  }
-  #close_icon {
-    font-size: 60px;
-    color: #3a25f4;
-  }
-  #footer1 {
-    display: flex;
-    align-items: center;
-  }
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=sign.css.map */

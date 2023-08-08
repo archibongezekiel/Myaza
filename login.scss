@@ -114,6 +114,7 @@
                 color: #2b0079;
                 margin-bottom: 10px;
                 font-family: "Work Sans", sans-serif;
+                font-size: 13px;
               }
               #email {
                 border: 1px solid #d3cffb;
@@ -136,6 +137,7 @@
                 color: #2b0079;
                 margin-bottom: 10px;
                 font-family: "Work Sans", sans-serif;
+                font-size: 13px;
               }
               #password {
                 border: 1px solid #d3cffb;
@@ -187,13 +189,14 @@
               font-weight: bold;
               border-radius: 5px;
               margin-top: 59px;
+              cursor: not-allowed;
             }
             #signup_link {
               margin-top: 40px;
               width: 250px;
               #link_label {
                 color: #5a5675;
-                font-size: 13px;
+                font-size: 15px;
                 font-family: "Work Sans", sans-serif;
               }
               #link {
