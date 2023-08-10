@@ -6,7 +6,7 @@
 }
 @media screen and (min-width: 1090px) {
   body {
-    .j {
+    .android_display_background {
       display: none;
     }
     #footer {
@@ -314,7 +314,7 @@
   }
 }
 //android
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1089px) {
   body {
     background: #f6f5fe;
   }
@@ -344,6 +344,7 @@
     margin-top: 40px;
     border: 1px solid red;
     width: 80%;
+    height: auto;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
   }
@@ -520,13 +521,13 @@
     font-size: 41px;
     font-weight: bold;
     border-radius: 9px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .have_account_container {
     display: flex;
     align-items: center;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 40px;
     justify-content: center;
   }
   #link_label {
@@ -542,9 +543,12 @@
     font-family: "Work Sans", sans-serif;
   }
   .download_coontainer {
-    border: 1px solid red;
+    margin-top: auto;
+    position: fixed;
+    box-shadow: 0px 1px 19px #3a25f4;
     height: 220px;
-    width: 10;
+    width: 1080px;
+    bottom: 0;
   }
   .close_button_container_android {
     text-align: end;
@@ -590,5 +594,9 @@
     align-items: center;
     border-radius: 10px;
     padding: 10px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
   }
 }
