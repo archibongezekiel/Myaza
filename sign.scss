@@ -318,20 +318,31 @@
   #d {
     display: none;
   }
-  .android_display_background {
-    background-color: #451f8a;
-  }
+  // .android_display_background {
+  // }
   #header_image {
     position: fixed;
     top: 0px;
     box-shadow: 0px 1px 19px #3a25f4;
     border: 1px solid red;
-    width: 1080px;
+
     height: 70px;
   }
+
   #company_logo {
     width: 100px;
     margin-left: 50px;
     margin-top: 20px;
+  }
+  .container {
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid red;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+  }
+  .email_container_android {
+    display: flex;
+    flex-direction: column;
   }
 }

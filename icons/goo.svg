@@ -1,7 +1,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="64px" height="64px" viewBox="0 0 6137.76 6137.76" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<svg width="64px" height="64px" viewBox="-613.78 -613.78 7365.32 7365.32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+<g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(3068.8805,3068.8805), scale(0)">
+<rect x="-613.78" y="-613.78" width="7365.32" height="7365.32" rx="0" fill="#7ed0ec" strokewidth="0"/>
+</g>
 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
 <g id="SVGRepo_iconCarrier">
 <path d="M6140.621 1737.202c0 149.832-121.453 271.344-271.261 271.344H274.18c-149.82.012-271.32-121.5-271.32-271.344V272.134C2.86 122.314 124.36.814 274.18.814h5595.168c149.808 0 271.261 121.5 271.261 271.32v1465.068h.012z"/>
@@ -37,7 +39,7 @@
 </clipPath>
 <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="1459.151" y1="2395.86" x2="1459.151" y2="2338.797" gradientTransform="matrix(12 0 0 -12 -16611.705 29817.492)">
 <stop offset="0" stop-color="#ec413d"/>
-<stop offset=".167" stop-color="#da4455"/>
+<stop offset=".167" stop-color="#da4452"/>
 <stop offset=".575" stop-color="#b0487a"/>
 <stop offset=".862" stop-color="#954a92"/>
 <stop offset="1" stop-color="#8a4a9d"/>

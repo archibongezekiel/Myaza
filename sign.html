@@ -198,11 +198,135 @@
 
     <!-- android-->
     <div class="android_display_background">
-      <div>
-        <div id="header_image">
-          <img src="icons/logo.svg" alt="" id="company_logo" />
-        </div>
+      <div id="header_image">
+        <img src="icons/logo.svg" alt="" id="company_logo" />
       </div>
+      <div class="container">
+        <div>
+          <h1>Welcome to Myaza</h1>
+          <p>
+            Sending money shouldn’t be a source of worry anymore, the solution
+            is here!
+          </p>
+        </div>
+        <form action="">
+          <div class="email_container_android">
+            <label
+              for="email_input"
+              id="email_label_android"
+              placeholder="E.g Wale@Azaman.com"
+              required
+            >
+              Email Address</label
+            >
+            <input type="email" name="" id="email_input_android" />
+          </div>
+          <!---->
+          <div>
+            <label for="">First Name</label>
+            <input type="text" />
+          </div>
+          <!---->
+          <div>
+            <label for="">Last Name</label>
+            <input type="text" />
+          </div>
+          <!---->
+          <div>
+            <label for="">Password</label>
+            <div>
+              <input type="password" name="" id="" /><button>Show</button>
+            </div>
+          </div>
+          <!---->
+          <div>
+            <label for="">Confirm Password</label>
+            <div>
+              <input type="password" name="" id="" /><button>Show</button>
+            </div>
+          </div>
+          <!---->
+          <div>
+            <div>
+              <input type="checkbox" name="" id="" />
+              <p>
+                By signing up, you agree to the
+                <a href="">Terms & Condition</a> and
+                <a href="">Privacy Policy</a>.
+              </p>
+            </div>
+            <button>Next-Email verification</button>
+            <div>
+              <p>Have an account?</p>
+              <a href="">Login</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!---->
+      <footer
+        style="
+          position: fixed;
+          bottom: 0px;
+          border: 1px solid red;
+          height: 100px;
+        "
+      >
+        <div>
+          <button>
+            <span class="material-symbols-outlined"> close </span>
+          </button>
+        </div>
+        <div
+          style="display: flex; align-items: center; padding: 2px; margin: 2px"
+        >
+          <p style="font-size: 11px">
+            Download the Myaza mobile app on your mobile device.
+          </p>
+          <div style="display: flex">
+            <button
+              style="
+                display: flex;
+                align-items: center;
+                background-color: #2b0079;
+                padding: 5px;
+                width: 80px;
+                height: 27px;
+                outline: none;
+                border: none;
+                border-radius: 3px;
+              "
+            >
+              <img src="icons/appp.svg" alt="" width="20px" />
+              <div style="display: flex; flex-direction: column">
+                <span style="font-size: 7px; color: white">Get it on</span>
+                <span style="font-size: 10px; color: white">App Store</span>
+              </div>
+            </button>
+            <a href="">
+              <button
+                style="
+                  display: flex;
+                  align-items: center;
+                  background-color: #2b0079;
+                  padding: 5px;
+                  width: 85px;
+                  height: 274px;
+                  outline: none;
+                  border: none;
+                  border-radius: 3px;
+                "
+              >
+                <img src="icons/gooo.png" alt="" width="20px" />
+                <div>
+                  <p style="font-size: 7px; color: white">Get it on</p>
+                  <p style="font-size: 10px; color: white">Google Play</p>
+                </div>
+              </button></a
+            >
+          </div>
+        </div>
+      </footer>
     </div>
     <script src="login.js"></script>
   </body>
