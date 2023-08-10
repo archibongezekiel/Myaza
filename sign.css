@@ -314,12 +314,13 @@
   }
   #header_image {
     box-shadow: 0px 1px 19px #3a25f4;
-    height: 100px;
+    height: 200px;
+    width: 1080px;
   }
   #company_logo {
-    width: 100px;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 270px;
   }
   .container {
     margin: auto;
@@ -470,7 +471,7 @@
     margin-top: 90px;
   }
   #label {
-    font-size: 30px;
+    font-size: 40px;
   }
   #next_email_ver_button {
     outline: none;
@@ -488,5 +489,19 @@
     display: flex;
     align-items: center;
     font-size: 50px;
+    margin-top: 70px;
+    justify-content: center;
+  }
+  #link_label {
+    color: #5a5675;
+    font-size: 40px;
+    font-family: "Work Sans", sans-serif;
+  }
+  #link {
+    text-decoration: none;
+    color: #3a25f4;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
   }
 }/*# sourceMappingURL=sign.css.map */

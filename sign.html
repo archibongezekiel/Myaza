@@ -293,8 +293,8 @@
             </div>
             <button id="next_email_ver_button">Next-Email verification</button>
             <div class="have_account_container">
-              <p>Have an account?</p>
-              <a href="login.html">Login</a>
+              <p id="link_label">Have an account?</p>
+              <a href="login.html" id="link">Login</a>
             </div>
           </div>
         </form>
@@ -305,7 +305,7 @@
           position: fixed;
           bottom: 0px;
           border: 1px solid red;
-          height: 150px;
+          height: 290px;
           width: 1080px;
         "
       >
@@ -314,50 +314,46 @@
             <span class="material-symbols-outlined"> close </span>
           </button>
         </div>
-        <div
-          style="display: flex; align-items: center; padding: 2px; margin: 2px"
-        >
-          <p style="font-size: 50px">
+        <div style="display: flex; align-items: center; margin: 2px">
+          <p style="font-size: 40px">
             Download the Myaza mobile app on your mobile device.
           </p>
           <div style="display: flex">
             <button
               style="
+                width: 230px;
+                background-color: #2b0079;
                 display: flex;
                 align-items: center;
-                background-color: #2b0079;
-                padding: 5px;
-                width: 80px;
-                height: 27px;
-                outline: none;
-                border: none;
-                border-radius: 3px;
+                border-radius: 10px;
+                padding: 10px;
               "
             >
-              <img src="icons/appp.svg" alt="" width="20px" />
+              <img src="icons/appp.svg" alt="" width="50px" />
               <div style="display: flex; flex-direction: column">
-                <span style="font-size: 7px; color: white">Get it on</span>
-                <span style="font-size: 10px; color: white">App Store</span>
+                <span style="font-size: 26px; color: white">Get it on</span>
+                <span style="font-size: 26px; color: white">App Store</span>
               </div>
             </button>
             <a href="">
               <button
                 style="
-                  display: flex;
-                  align-items: center;
-                  background-color: #2b0079;
-                  padding: 5px;
-                  width: 85px;
-                  height: 27px;
                   outline: none;
                   border: none;
-                  border-radius: 3px;
+                  width: 230px;
+                  background-color: #2b0079;
+                  display: flex;
+                  align-items: center;
+                  border-radius: 10px;
+                  height: 80px;
+                  padding: 10px;
+                  margin-left: 20px;
                 "
               >
-                <img src="icons/gooo.png" alt="" width="20px" />
+                <img src="icons/gooo.png" alt="" width="50px" />
                 <div>
-                  <p style="font-size: 7px; color: white">Get it on</p>
-                  <p style="font-size: 10px; color: white">Google Play</p>
+                  <p style="font-size: 26px; color: white">Get it on</p>
+                  <p style="font-size: 26px; color: white">Google Play</p>
                 </div>
               </button></a
             >
@@ -369,3 +365,12 @@
     <script src="login.js"></script>
   </body>
 </html>
+<!-- display: flex;
+align-items: center;
+background-color: #2b0079;
+padding: 5px;
+width: 95px;
+height: 77px;
+outline: none;
+border: none;
+border-radius: 3px; -->
