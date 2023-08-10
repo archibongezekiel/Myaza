@@ -318,30 +318,33 @@
   #d {
     display: none;
   }
+
   // .android_display_background {
   // }
+
   #header_image {
     position: fixed;
     top: 0px;
     box-shadow: 0px 1px 19px #3a25f4;
     width: 1080px;
-    height: 200px;
+    height: 110px;
   }
 
   #company_logo {
-    width: 240px;
-    margin-left: 100px;
-    margin-top: 70px;
+    width: 150px;
+    margin-left: 70px;
+    margin-top: 40px;
   }
+
   .container {
     margin: auto;
-    margin-top: 130px;
+    margin-top: 200px;
     border: 1px solid red;
     width: 80%;
     background-color: rgb(255, 255, 255);
   }
   #welcome_head {
-    font-size: 26px;
+    font-size: 20px;
     color: #2b0079;
     font-family: "Work Sans", sans-serif;
   }
