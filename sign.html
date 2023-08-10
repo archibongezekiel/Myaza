@@ -124,6 +124,7 @@
                       name="firstName"
                       id="firstName_input"
                       placeholder="Wale"
+                      required
                     />
                   </div>
                   <!---->
@@ -135,6 +136,7 @@
                       name="LastName"
                       id="lastName_input"
                       placeholder="Ade"
+                      required
                     />
                   </div>
                 </div>
@@ -203,62 +205,91 @@
       </div>
       <div class="container">
         <div>
-          <h1>Welcome to Myaza</h1>
-          <p>
+          <h1 id="welcome_head">Welcome to Myaza</h1>
+          <p id="info_para">
             Sending money shouldn’t be a source of worry anymore, the solution
             is here!
           </p>
         </div>
         <form action="">
           <div class="email_container_android">
-            <label
-              for="email_input"
-              id="email_label_android"
-              placeholder="E.g Wale@Azaman.com"
-              required
-            >
+            <label for="email_input_android" id="email_label_android">
               Email Address</label
             >
-            <input type="email" name="" id="email_input_android" />
+            <input
+              type="email"
+              name=""
+              id="email_input_android"
+              placeholder="E.g Wale@Azaman.com"
+              required
+            />
           </div>
           <!---->
-          <div>
-            <label for="">First Name</label>
-            <input type="text" />
+          <div class="firstName_container_android">
+            <label for="firstName_input_android" id="firstName_label_android"
+              >First Name</label
+            >
+            <input
+              type="text"
+              id="firstName_input_android"
+              placeholder="Wale"
+              required
+            />
           </div>
           <!---->
-          <div>
-            <label for="">Last Name</label>
-            <input type="text" />
+          <div class="lastName_container_android">
+            <label for="lastName_input_android" id="lastName_label_android"
+              >Last Name</label
+            >
+            <input
+              type="text"
+              id="lastName_input_android"
+              placeholder="Ade"
+              required
+            />
           </div>
           <!---->
-          <div>
-            <label for="">Password</label>
+          <div class="password_container_android">
+            <label for="password_input_android" id="password_label_android"
+              >Password</label
+            >
             <div>
-              <input type="password" name="" id="" /><button>Show</button>
+              <input
+                type="password"
+                name="password"
+                id="password_input_android"
+                placeholder="password"
+                required
+              /><button>Show</button>
+            </div>
+          </div>
+          <!---->
+          <div class="confirm_password_container_android">
+            <label for="confirm_password_input_android">Confirm Password</label>
+            <div>
+              <input
+                type="password"
+                name="password"
+                id="confirm_password_input_android"
+                placeholder="Confirm password"
+                required
+              /><button>Show</button>
             </div>
           </div>
           <!---->
           <div>
-            <label for="">Confirm Password</label>
-            <div>
-              <input type="password" name="" id="" /><button>Show</button>
-            </div>
-          </div>
-          <!---->
-          <div>
-            <div>
+            <div class="label_link_container">
               <input type="checkbox" name="" id="" />
-              <p>
+              <p id="label">
                 By signing up, you agree to the
-                <a href="">Terms & Condition</a> and
-                <a href="">Privacy Policy</a>.
+                <a href="" id="terms_condi_link">Terms & Condition</a> and
+                <a href="" id="privacy_link">Privacy Policy</a>.
               </p>
             </div>
-            <button>Next-Email verification</button>
-            <div>
+            <button id="next_email_ver_button">Next-Email verification</button>
+            <div class="have_account_container">
               <p>Have an account?</p>
-              <a href="">Login</a>
+              <a href="login.html">Login</a>
             </div>
           </div>
         </form>
@@ -311,7 +342,7 @@
                   background-color: #2b0079;
                   padding: 5px;
                   width: 85px;
-                  height: 274px;
+                  height: 27px;
                   outline: none;
                   border: none;
                   border-radius: 3px;

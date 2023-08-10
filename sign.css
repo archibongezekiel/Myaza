@@ -309,7 +309,7 @@
     position: fixed;
     top: 0px;
     box-shadow: 0px 1px 19px #3a25f4;
-    border: 1px solid red;
+    width: 1080px;
     height: 70px;
   }
   #company_logo {
@@ -319,13 +319,98 @@
   }
   .container {
     margin: auto;
-    margin-top: 100px;
+    margin-top: 130px;
     border: 1px solid red;
-    width: 70%;
+    width: 80%;
     background-color: rgb(255, 255, 255);
+  }
+  #welcome_head {
+    font-size: 26px;
+    color: #2b0079;
+    font-family: "Work Sans", sans-serif;
+  }
+  #info_para {
+    font-size: 14px;
+    color: #5a5675;
+    font-family: "Work Sans", sans-serif;
+    line-height: 20px;
   }
   .email_container_android {
     display: flex;
     flex-direction: column;
+  }
+  #email_input_android {
+    border: 1px solid #d3cffb;
+    outline: none;
+    font-size: 12px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .firstName_container_android {
+    display: flex;
+    flex-direction: column;
+  }
+  #firstName_input_android {
+    border: 1px solid #d3cffb;
+    outline: none;
+    font-size: 12px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .lastName_container_android {
+    display: flex;
+    flex-direction: column;
+  }
+  #lastName_input_android {
+    border: 1px solid #d3cffb;
+    outline: none;
+    font-size: 12px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .password_container_android {
+    display: flex;
+    flex-direction: column;
+  }
+  #password_input_android {
+    border: 1px solid #d3cffb;
+    outline: none;
+    font-size: 12px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .confirm_password_container_android {
+    display: flex;
+    flex-direction: column;
+  }
+  #confirm_password_input_android {
+    border: 1px solid #d3cffb;
+    outline: none;
+    font-size: 12px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .label_link_container {
+    display: flex;
+    align-items: center;
+  }
+  #label {
+    font-size: 12px;
+  }
+  #next_email_ver_button {
+    outline: none;
+    border: none;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+  }
+  .have_account_container {
+    display: flex;
+    align-items: center;
   }
 }/*# sourceMappingURL=sign.css.map */
