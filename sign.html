@@ -254,27 +254,31 @@
             <label for="password_input_android" id="password_label_android"
               >Password</label
             >
-            <div>
+            <div style="display: flex">
               <input
                 type="password"
                 name="password"
                 id="password_input_android"
                 placeholder="password"
                 required
-              /><button>Show</button>
+              /><button id="show_password_android"><span>Show</span></button>
             </div>
           </div>
           <!---->
           <div class="confirm_password_container_android">
-            <label for="confirm_password_input_android">Confirm Password</label>
-            <div>
+            <label
+              for="confirm_password_input_android"
+              id="confirm_password_label_android"
+              >Confirm Password</label
+            >
+            <div style="display: flex">
               <input
                 type="password"
                 name="password"
                 id="confirm_password_input_android"
                 placeholder="Confirm password"
                 required
-              /><button>Show</button>
+              /><button id="show_password_android"><span>Show</span></button>
             </div>
           </div>
           <!---->
@@ -301,7 +305,8 @@
           position: fixed;
           bottom: 0px;
           border: 1px solid red;
-          height: 100px;
+          height: 150px;
+          width: 1080px;
         "
       >
         <div>
@@ -312,7 +317,7 @@
         <div
           style="display: flex; align-items: center; padding: 2px; margin: 2px"
         >
-          <p style="font-size: 11px">
+          <p style="font-size: 50px">
             Download the Myaza mobile app on your mobile device.
           </p>
           <div style="display: flex">
