@@ -342,7 +342,6 @@
   .container {
     margin: auto;
     margin-top: 40px;
-    border: 1px solid red;
     width: 80%;
     height: auto;
     background-color: rgb(255, 255, 255);
@@ -577,6 +576,7 @@
   .store_download {
     display: flex;
     align-items: center;
+    margin-right: 26px;
   }
   #apple_download_button {
     width: 230px;
