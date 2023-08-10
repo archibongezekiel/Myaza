@@ -347,9 +347,10 @@
     margin-top: 40px;
   }
   #email_label_android {
-    font-size: 20px;
     color: #2b0079;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
+    font-size: 37px;
   }
   #email_input_android {
     border: 2px solid #d3cffb;
@@ -369,9 +370,10 @@
     margin-top: 30px;
   }
   #firstName_label_android {
-    font-size: 20px;
     color: #2b0079;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
+    font-size: 37px;
   }
   #firstName_input_android {
     border: 2px solid #d3cffb;
@@ -391,9 +393,10 @@
     margin-top: 30px;
   }
   #lastName_label_android {
-    font-size: 20px;
     color: #2b0079;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
+    font-size: 37px;
   }
   #lastName_input_android {
     border: 2px solid #d3cffb;
@@ -413,9 +416,10 @@
     margin-top: 30px;
   }
   #password_label_android {
-    font-size: 20px;
     color: #2b0079;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
+    font-size: 37px;
   }
   #password_input_android {
     border: 2px solid #d3cffb;
@@ -436,9 +440,10 @@
     margin-top: 30px;
   }
   #confirm_password_label_android {
-    font-size: 20px;
     color: #2b0079;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
+    font-size: 37px;
   }
   #confirm_password_input_android {
     border: 3px solid #d3cffb;
@@ -503,5 +508,57 @@
     font-size: 40px;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
+  }
+  .download_coontainer {
+    position: fixed;
+    bottom: 0px;
+    border: 1px solid red;
+    height: 220px;
+    width: 10;
+  }
+  .close_button_container_android {
+    text-align: end;
+  }
+  #close_icon_button_android {
+    background: transparent;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    width: 90px;
+  }
+  #close_icon {
+    font-size: 60px;
+    color: #3a25f4;
+  }
+  .apple_google_store {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+  }
+  #download_label {
+    font-size: 38px;
+    color: #2b0079;
+    padding: 30px;
+  }
+  .store_download {
+    display: flex;
+    align-items: center;
+  }
+  #apple_download_button {
+    width: 230px;
+    background-color: #2b0079;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  #google_download_button {
+    width: 230px;
+    background-color: #2b0079;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
   }
 }/*# sourceMappingURL=sign.css.map */

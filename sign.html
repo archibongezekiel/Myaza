@@ -300,56 +300,31 @@
         </form>
       </div>
       <!---->
-      <footer
-        style="
-          position: fixed;
-          bottom: 0px;
-          border: 1px solid red;
-          height: 290px;
-          width: 1080px;
-        "
-      >
-        <div>
-          <button>
-            <span class="material-symbols-outlined"> close </span>
+      <footer class="download_coontainer">
+        <div class="close_button_container_android">
+          <button id="close_icon_button_android">
+            <span class="material-symbols-outlined" id="close_icon">
+              close
+            </span>
           </button>
         </div>
-        <div style="display: flex; align-items: center; margin: 2px">
-          <p style="font-size: 40px">
+        <!---->
+        <div class="apple_google_store">
+          <p id="download_label">
             Download the Myaza mobile app on your mobile device.
           </p>
-          <div style="display: flex">
-            <button
-              style="
-                width: 230px;
-                background-color: #2b0079;
-                display: flex;
-                align-items: center;
-                border-radius: 10px;
-                padding: 10px;
-              "
-            >
-              <img src="icons/appp.svg" alt="" width="50px" />
-              <div style="display: flex; flex-direction: column">
-                <span style="font-size: 26px; color: white">Get it on</span>
-                <span style="font-size: 26px; color: white">App Store</span>
-              </div>
-            </button>
+          <div class="store_download">
             <a href="">
-              <button
-                style="
-                  outline: none;
-                  border: none;
-                  width: 230px;
-                  background-color: #2b0079;
-                  display: flex;
-                  align-items: center;
-                  border-radius: 10px;
-                  height: 80px;
-                  padding: 10px;
-                  margin-left: 20px;
-                "
-              >
+              <button id="apple_download_button">
+                <img src="icons/appp.svg" alt="" width="50px" />
+                <div style="display: flex; flex-direction: column">
+                  <span style="font-size: 26px; color: white">Get it on</span>
+                  <span style="font-size: 26px; color: white">App Store</span>
+                </div>
+              </button>
+            </a>
+            <a href="">
+              <button id="google_download_button">
                 <img src="icons/gooo.png" alt="" width="50px" />
                 <div>
                   <p style="font-size: 26px; color: white">Get it on</p>
