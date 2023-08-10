@@ -324,7 +324,7 @@
   }
   .container {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
     border: 1px solid red;
     width: 80%;
     background-color: rgb(255, 255, 255);
@@ -348,9 +348,9 @@
   }
   #email_label_android {
     color: #2b0079;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Work Sans", sans-serif;
-    font-size: 37px;
+    font-size: 31px;
   }
   #email_input_android {
     border: 2px solid #d3cffb;
@@ -371,9 +371,9 @@
   }
   #firstName_label_android {
     color: #2b0079;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Work Sans", sans-serif;
-    font-size: 37px;
+    font-size: 31px;
   }
   #firstName_input_android {
     border: 2px solid #d3cffb;
@@ -394,9 +394,9 @@
   }
   #lastName_label_android {
     color: #2b0079;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Work Sans", sans-serif;
-    font-size: 37px;
+    font-size: 31px;
   }
   #lastName_input_android {
     border: 2px solid #d3cffb;
@@ -417,9 +417,9 @@
   }
   #password_label_android {
     color: #2b0079;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Work Sans", sans-serif;
-    font-size: 37px;
+    font-size: 31px;
   }
   #password_input_android {
     border: 2px solid #d3cffb;
@@ -441,9 +441,9 @@
   }
   #confirm_password_label_android {
     color: #2b0079;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Work Sans", sans-serif;
-    font-size: 37px;
+    font-size: 31px;
   }
   #confirm_password_input_android {
     border: 3px solid #d3cffb;
@@ -473,10 +473,23 @@
   .label_link_container {
     display: flex;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 50px;
   }
   #label {
-    font-size: 40px;
+    text-decoration: none;
+    color: #635f7d;
+    font-size: 36px;
+    margin-left: 6px;
+  }
+  #terms_condi_link {
+    text-decoration: none;
+    font-size: 37px;
+    color: #451f8a;
+  }
+  #privacy_link {
+    text-decoration: none;
+    font-size: 37px;
+    color: #451f8a;
   }
   #next_email_ver_button {
     outline: none;
@@ -488,13 +501,13 @@
     font-size: 41px;
     font-weight: bold;
     border-radius: 9px;
-    margin-top: 200px;
+    margin-top: 100px;
   }
   .have_account_container {
     display: flex;
     align-items: center;
     font-size: 50px;
-    margin-top: 70px;
+    margin-top: 50px;
     justify-content: center;
   }
   #link_label {
@@ -510,8 +523,6 @@
     font-family: "Work Sans", sans-serif;
   }
   .download_coontainer {
-    position: fixed;
-    bottom: 0px;
     border: 1px solid red;
     height: 220px;
     width: 10;
