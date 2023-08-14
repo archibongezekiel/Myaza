@@ -309,7 +309,6 @@
     display: none;
   }
   .android_display_background {
-    border: 1px solid red;
     width: 1080px;
   }
   #header_image {
@@ -329,7 +328,6 @@
     height: 500%;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
-    border: 1px solid red;
     overflow: scroll;
   }
   #welcome_head {
