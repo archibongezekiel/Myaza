@@ -348,16 +348,16 @@
   }
   #email_label_android {
     color: #2b0079;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-family: "Work Sans", sans-serif;
-    font-size: 31px;
+    font-size: 27px;
   }
   #email_input_android {
     border: 2px solid #d3cffb;
     outline: none;
     font-size: 30px;
-    height: 90px;
-    padding: 10px;
+    height: 110px;
+    padding: 40px;
     border-radius: 4px;
   }
   #email_input_android:focus {
@@ -371,16 +371,16 @@
   }
   #firstName_label_android {
     color: #2b0079;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-family: "Work Sans", sans-serif;
-    font-size: 31px;
+    font-size: 27px;
   }
   #firstName_input_android {
     border: 2px solid #d3cffb;
     outline: none;
     font-size: 30px;
-    height: 100px;
-    padding: 10px;
+    height: 110px;
+    padding: 40px;
     border-radius: 4px;
   }
   #firstName_input_android:focus {
@@ -394,16 +394,16 @@
   }
   #lastName_label_android {
     color: #2b0079;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-family: "Work Sans", sans-serif;
-    font-size: 31px;
+    font-size: 27px;
   }
   #lastName_input_android {
     border: 2px solid #d3cffb;
     outline: none;
     font-size: 30px;
-    height: 90px;
-    padding: 10px;
+    height: 110px;
+    padding: 40px;
     border-radius: 4px;
   }
   #lastName_input_android:focus {
@@ -417,16 +417,16 @@
   }
   #password_label_android {
     color: #2b0079;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-family: "Work Sans", sans-serif;
-    font-size: 31px;
+    font-size: 27px;
   }
   #password_input_android {
     border: 2px solid #d3cffb;
     outline: none;
     font-size: 30px;
-    height: 90px;
-    padding: 10px;
+    height: 110px;
+    padding: 40px;
     border-radius: 4px;
     width: 100%;
   }
@@ -437,20 +437,20 @@
   .confirm_password_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 37px;
   }
   #confirm_password_label_android {
     color: #2b0079;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     font-family: "Work Sans", sans-serif;
-    font-size: 31px;
+    font-size: 27px;
   }
   #confirm_password_input_android {
     border: 3px solid #d3cffb;
     outline: none;
     font-size: 30px;
-    height: 90px;
-    padding: 10px;
+    height: 110px;
+    padding: 40px;
     border-radius: 4px;
     width: 100%;
   }
