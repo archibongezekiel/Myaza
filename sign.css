@@ -504,6 +504,7 @@
     font-weight: bold;
     border-radius: 9px;
     margin-top: 10px;
+    opacity: 0.5;
   }
   .have_account_container {
     display: flex;

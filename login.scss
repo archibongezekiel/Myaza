@@ -236,9 +236,9 @@
     }
   }
   .container2 {
-    width: 800px;
+    width: 70%;
     height: 1600px;
-
+    overflow: scroll;
     margin: auto;
     margin-top: 110px;
   }
@@ -317,7 +317,7 @@
     width: 120px;
     height: 80px;
     position: relative;
-    left: 660px;
+    left: 610px;
     bottom: 90px;
     color: #3a25f4;
     font-size: 40px;
@@ -346,6 +346,7 @@
     font-weight: bold;
     border-radius: 9px;
     margin-top: 200px;
+    opacity: 0.5;
   }
   #signup_link {
     margin-top: 40px;
