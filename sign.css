@@ -326,9 +326,11 @@
     margin: auto;
     margin-top: 80px;
     width: 70%;
-    height: auto;
+    height: 500%;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
+    border: 1px solid red;
+    overflow: scroll;
   }
   #welcome_head {
     font-size: 50px;
@@ -348,7 +350,7 @@
   }
   #email_label_android {
     color: #2b0079;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 27px;
   }
@@ -371,7 +373,7 @@
   }
   #firstName_label_android {
     color: #2b0079;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 27px;
   }
@@ -394,7 +396,7 @@
   }
   #lastName_label_android {
     color: #2b0079;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 27px;
   }
@@ -417,7 +419,7 @@
   }
   #password_label_android {
     color: #2b0079;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 27px;
   }
@@ -441,7 +443,7 @@
   }
   #confirm_password_label_android {
     color: #2b0079;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-family: "Work Sans", sans-serif;
     font-size: 27px;
   }
