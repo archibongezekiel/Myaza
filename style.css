@@ -30,7 +30,7 @@
 #blur5 header #menu_button {
   background-color: rgb(219, 225, 231);
   position: relative;
-  left: 97%;
+  left: 90%;
   outline: none;
   border: none;
   padding: 10px;
@@ -347,4 +347,53 @@
 }
 #blur5 .share .sign_in_linktree #sign_in_linktree #find_more_button:hover {
   background-color: rgba(209, 217, 224, 0.248);
+}
+
+@media screen and (max-width: 1089px) {
+  #blur1 {
+    display: none;
+  }
+  #blur2 {
+    display: none;
+  }
+  #blur3 {
+    display: none;
+  }
+  #none {
+    display: none;
+  }
+  .android_container {
+    border: 1px solid red;
+    margin: auto;
+    width: 95%;
+  }
+  .more_button_container {
+    border: 1px solid red;
+    text-align: end;
+  }
+  #more_button {
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+  }
+  #more_image {
+    width: 60px;
+    height: 60px;
+  }
+  .description_container {
+    border: 1px solid red;
+    text-align: center;
+  }
+  #description_image {
+    width: 22%;
+    height: 22%;
+    border-radius: 230px;
+  }
+  #description_title {
+    font-weight: 400px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */

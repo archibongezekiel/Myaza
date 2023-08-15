@@ -189,3 +189,7 @@ function copy() {
   document.execCommand("copy");
   element.removeChild(storage);
 }
+//
+function call() {
+  document.querySelector("#h2").innerText = "dhd";
+}
