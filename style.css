@@ -375,25 +375,31 @@
     outline: none;
     border: none;
     border-radius: 50px;
-    width: 90px;
-    height: 90px;
+    width: 64px;
+    height: 64px;
   }
   #more_image {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
   }
   .description_container {
     border: 1px solid red;
     text-align: center;
   }
   #description_image {
-    width: 22%;
-    height: 22%;
+    width: 20%;
+    height: 20%;
     border-radius: 230px;
   }
   #description_title {
     font-weight: 400px;
     font-family: "Work Sans", sans-serif;
-    font-size: 30px;
+    font-size: 27px;
+  }
+  #description {
+    font-weight: lighter;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.6);
   }
 }/*# sourceMappingURL=style.css.map */
