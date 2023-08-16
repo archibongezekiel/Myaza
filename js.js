@@ -190,6 +190,3 @@ function copy() {
   element.removeChild(storage);
 }
 //
-function call() {
-  document.querySelector("#h2").innerText = "dhd";
-}

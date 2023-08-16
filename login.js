@@ -13,3 +13,6 @@ function copy() {
   document.execCommand("copy");
   element.removeChild(storage);
 }
+document.querySelector("#close_button").addEventListener("click", () => {
+  document.querySelector("#footer").style.display = "none";
+});
