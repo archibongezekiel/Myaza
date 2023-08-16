@@ -233,12 +233,12 @@
     width: 1080px;
     .logo_header {
       margin-top: 70px;
-      margin-left: 130px;
+      margin-left: 30px;
       width: 270px;
     }
   }
   .container2 {
-    width: 60%;
+    width: 95%;
     overflow: scroll;
     margin: auto;
     margin-top: 110px;
@@ -250,15 +250,15 @@
   #welcome_text {
     display: flex;
     align-items: center;
-    font-size: 57px;
+    font-size: 70px;
     color: #2b0079;
     font-family: "Space Grotesk", sans-serif;
   }
   #emoji {
-    font-size: 60px;
+    font-size: 70px;
   }
   #p_tag {
-    font-size: 38px;
+    font-size: 45px;
     color: #5a5675;
     font-family: "Karla", sans-serif;
   }
@@ -269,7 +269,7 @@
     margin-top: 20px;
   }
   #email_label {
-    font-size: 27px;
+    font-size: 40px;
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
@@ -301,7 +301,7 @@
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #password_input {
     border: 2px solid #d3cffb;
@@ -319,7 +319,7 @@
   #show_password {
     position: relative;
     bottom: 100px;
-    left: 82%;
+    left: 88%;
     background: transparent;
     outline: none;
     border: none;
@@ -365,22 +365,22 @@
   }
   #link_label {
     color: #5a5675;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
   }
   #link {
     text-decoration: none;
     color: #3a25f4;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     font-family: "Karla", sans-serif;
   }
   #footer {
     font-family: "Karla", sans-serif;
-    position: fixed;
-    bottom: 0;
     box-shadow: 0px 1px 19px #3a25f4;
     width: 1080px;
-    height: 205px;
+    position: fixed;
+    bottom: 0;
   }
   .close_icon_container {
     text-align: end;
@@ -398,11 +398,13 @@
   }
   #footer1 {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
   .store_download {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 45px;
   }
   #apple_download_button {
@@ -423,7 +425,6 @@
     padding: 10px;
   }
   a {
-    color: wite;
     text-decoration: none;
   }
 }
