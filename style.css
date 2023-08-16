@@ -376,7 +376,6 @@
     display: none;
   }
   .android_container {
-    border: 1px solid red;
     margin: auto;
     width: 95%;
     margin-top: 30px;
@@ -507,10 +506,16 @@
     margin: 6px;
   }
   .linktree_container {
-    border: 1px solid red;
     margin: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 90px;
+  }
+  #linktree_container {
     width: 95%;
-    margin-top: 500px;
+    margin: auto;
+    height: 90px;
   }
   #link_to_linktree {
     margin: auto;
@@ -520,11 +525,12 @@
     justify-content: center;
     text-align: center;
     text-decoration: none;
+    padding: 30px;
   }
   #linktree_label {
     color: black;
     font-weight: bold;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 27px;
   }
 }/*# sourceMappingURL=style.css.map */
