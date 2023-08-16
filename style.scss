@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -396,13 +397,11 @@
     border-radius: 230px;
   }
   #description_title {
-    font-weight: 400px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
   }
   #description {
-    font-weight: light;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.6);
   }
@@ -425,10 +424,11 @@
     height: 50px;
   }
   #apple_label {
-    font-size: 15px;
+    font-size: 16px;
     margin: 10px;
     font-family: "Inter", sans-serif;
     color: black;
+    font-weight: bold;
   }
   #button_apple_link {
     outline: none;
@@ -443,5 +443,52 @@
   }
   a {
     text-decoration: none;
+  }
+  .google_container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+  }
+  #google_link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  #google_logo {
+    width: 50px;
+    height: 50px;
+  }
+  #google_label {
+    font-size: 16px;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+  #google_button {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  #google_image {
+    width: 20px;
+    height: 20px;
+  }
+  .social_media_container {
+    text-align: center;
+    border: 1px solid red;
+  }
+  #mail,
+  #facebook,
+  #instagram,
+  #linkedin,
+  #twitter::before {
+    content: "";
+    margin: 6px;
   }
 }
