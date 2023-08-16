@@ -12,6 +12,9 @@
   .android_container {
     display: none;
   }
+  .linktree_container {
+    display: none;
+  }
   #blur5 {
     background-image: linear-gradient(to right, #dad6fc, rgba(201, 190, 190, 0.824));
     font-family: "Domine", serif;
