@@ -381,7 +381,7 @@
   .android_container {
     margin: auto;
     width: 95%;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   .more_button_container {
     text-align: end;
@@ -390,12 +390,12 @@
     outline: none;
     border: none;
     border-radius: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   #more_image {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
   .description_container {
     text-align: center;
@@ -407,7 +407,7 @@
   }
   #description_title {
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 20px;
   }
   #description {
@@ -447,8 +447,8 @@
     outline: none;
     border: none;
     border-radius: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 5px;
   }
   #apple_image {
@@ -489,13 +489,13 @@
     outline: none;
     border: none;
     border-radius: 20px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin: 5px;
   }
   #google_image {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
   .social_media_container {
     text-align: center;
@@ -535,6 +535,6 @@
     color: black;
     font-weight: bold;
     font-family: "Inter", sans-serif;
-    font-size: 27px;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
