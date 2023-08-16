@@ -379,9 +379,9 @@
     border: 1px solid red;
     margin: auto;
     width: 95%;
+    margin-top: 30px;
   }
   .more_button_container {
-    border: 1px solid red;
     text-align: end;
   }
   #more_button {
@@ -396,7 +396,6 @@
     height: 20px;
   }
   .description_container {
-    border: 1px solid red;
     text-align: center;
   }
   #description_image {
@@ -407,34 +406,39 @@
   #description_title {
     font-family: "Inter", sans-serif;
     font-size: 20px;
+    margin-top: 20px;
   }
   #description {
     font-family: "Inter", sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.6);
+    line-height: 50px;
   }
   .apple_container {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid red;
     display: flex;
     align-items: center;
+    box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
   }
   #apple_link {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    border-radius: 5px;
+    height: 60px;
   }
   #apple_logo {
     width: 40px;
     height: 40px;
+    margin: 5px;
   }
   #apple_label {
     font-size: 16px;
     margin: 10px;
     font-family: "Inter", sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
   }
   #button_apple_link {
     outline: none;
@@ -442,6 +446,7 @@
     border-radius: 20px;
     width: 40px;
     height: 40px;
+    margin: 5px;
   }
   #apple_image {
     width: 20px;
@@ -452,26 +457,30 @@
   }
   .google_container {
     background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid red;
+    margin-top: 15px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
   }
   #google_link {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    height: 60px;
   }
   #google_logo {
     width: 40px;
     height: 40px;
+    margin: 5px;
   }
   #google_label {
     font-size: 16px;
     margin: 10px;
     font-family: "Inter", sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
   }
   #google_button {
     outline: none;
@@ -479,6 +488,7 @@
     border-radius: 20px;
     width: 40px;
     height: 40px;
+    margin: 5px;
   }
   #google_image {
     width: 20px;
@@ -486,7 +496,7 @@
   }
   .social_media_container {
     text-align: center;
-    border: 1px solid red;
+    margin-top: 35px;
   }
   #mail,
   #facebook,
@@ -500,6 +510,7 @@
     border: 1px solid red;
     margin: auto;
     width: 95%;
+    margin-top: 500px;
   }
   #link_to_linktree {
     margin: auto;
@@ -508,7 +519,6 @@
     width: 100px;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
     text-decoration: none;
   }
   #linktree_label {
