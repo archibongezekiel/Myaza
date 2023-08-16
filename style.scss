@@ -408,8 +408,8 @@
     text-align: center;
   }
   #description_image {
-    width: 19%;
-    height: 19%;
+    width: 15%;
+    height: 15%;
     border-radius: 230px;
   }
   #description_title {
@@ -428,14 +428,16 @@
     display: flex;
     align-items: center;
     box-shadow: rgba(10, 11, 13, 0.08) 0px 2px 4px 0px;
+    margin-top: 20px;
+    border-radius: 5px;
   }
   #apple_link {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius: 5px;
-    height: 40px;
+
+    height: 45px;
   }
   #apple_logo {
     width: 40px;
@@ -477,7 +479,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 40px;
+    height: 45px;
   }
   #google_logo {
     width: 40px;
