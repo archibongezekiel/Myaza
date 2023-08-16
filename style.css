@@ -394,8 +394,8 @@
     height: 30px;
   }
   #more_image {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   .description_container {
     text-align: center;
@@ -407,12 +407,12 @@
   }
   #description_title {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 20px;
   }
   #description {
     font-family: "Inter", sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
     margin-top: 10px;
   }
@@ -432,12 +432,12 @@
     height: 45px;
   }
   #apple_logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 5px;
   }
   #apple_label {
-    font-size: 10px;
+    font-size: 16px;
     margin: 10px;
     font-family: "Inter", sans-serif;
     color: rgb(0, 0, 0);
@@ -452,8 +452,8 @@
     margin: 5px;
   }
   #apple_image {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   a {
     text-decoration: none;
@@ -474,12 +474,12 @@
     height: 45px;
   }
   #google_logo {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin: 5px;
   }
   #google_label {
-    font-size: 10px;
+    font-size: 16px;
     margin: 10px;
     font-family: "Inter", sans-serif;
     color: rgb(0, 0, 0);
@@ -494,8 +494,8 @@
     margin: 5px;
   }
   #google_image {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
   }
   .social_media_container {
     text-align: center;
@@ -535,6 +535,6 @@
     color: black;
     font-weight: bold;
     font-family: "Inter", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
