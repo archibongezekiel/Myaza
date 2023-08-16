@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -90,7 +92,7 @@
     flex-direction: column;
     font-size: 47px;
     color: #2b0079;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   body .l #j .container2 #container1 #welcome_text #emoji {
     font-size: 47px;
@@ -99,7 +101,7 @@
   body .l #j .container2 #container1 #p_tag {
     font-size: 19px;
     color: #5a5675;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     padding: 5px;
   }
   body .l #j .container2 .from_container {
@@ -112,7 +114,7 @@
   body .l #j .container2 .from_container #email_container #email_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container #email_container #email {
@@ -139,7 +141,7 @@
   body .l #j .container2 .from_container .User_name_input #firstName_container #firstName_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container .User_name_input #firstName_container #firstName_input {
@@ -162,7 +164,7 @@
   body .l #j .container2 .from_container .User_name_input #lastName_container #lastName_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container .User_name_input #lastName_container #lastName_input {
@@ -185,7 +187,7 @@
   body .l #j .container2 .from_container #password_container #password_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container #password_container #password {
@@ -221,7 +223,7 @@
   body .l #j .container2 .from_container #confirm_password_container #confirm_password_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container #confirm_password_container #confirm_password_input {
@@ -260,6 +262,7 @@
     color: #635f7d;
     font-size: 14px;
     margin-left: 6px;
+    font-family: "Karla", sans-serif;
   }
   body .l #j .container2 .from_container #forget_button_link #paragrah #terms_and_condition {
     text-decoration: none;
@@ -291,14 +294,14 @@
   body .l #j .container2 .from_container #signup_link #link_label {
     color: #2b0079;
     font-size: 15px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   body .l #j .container2 .from_container #signup_link #link {
     text-decoration: none;
     color: #5645f5;
     font-size: 15px;
     font-weight: 700;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
 }
 @media screen and (max-width: 1089px) {
@@ -324,8 +327,7 @@
   .container {
     margin: auto;
     margin-top: 80px;
-    width: 70%;
-    height: 500%;
+    width: 60%;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
     overflow: scroll;
@@ -333,12 +335,12 @@
   #welcome_head {
     font-size: 50px;
     color: #2b0079;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   #info_para {
     font-size: 30px;
     color: #5a5675;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     line-height: 60px;
   }
   .email_container_android {
@@ -349,7 +351,7 @@
   #email_label_android {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #email_input_android {
@@ -372,7 +374,7 @@
   #firstName_label_android {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #firstName_input_android {
@@ -395,7 +397,7 @@
   #lastName_label_android {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #lastName_input_android {
@@ -418,7 +420,7 @@
   #password_label_android {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #password_input_android {
@@ -442,7 +444,7 @@
   #confirm_password_label_android {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #confirm_password_input_android {
@@ -465,6 +467,7 @@
     width: 120px;
     height: 90px;
     position: relative;
+    font-family: "Karla", sans-serif;
     color: #3a25f4;
     font-size: 40px;
     font-weight: bold;
@@ -514,14 +517,14 @@
   #link_label {
     color: #5a5675;
     font-size: 35px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   #link {
     text-decoration: none;
     color: #3a25f4;
     font-size: 35px;
     font-weight: 700;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   .download_coontainer {
     margin-top: auto;
@@ -555,6 +558,7 @@
     font-size: 30px;
     color: #2b0079;
     padding: 30px;
+    font-family: "Karla", sans-serif;
   }
   .store_download {
     display: flex;

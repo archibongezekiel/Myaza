@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 #blur5 {
@@ -375,8 +377,8 @@
     outline: none;
     border: none;
     border-radius: 20px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
   #more_image {
     width: 20px;
@@ -397,12 +399,13 @@
     font-size: 20px;
   }
   #description {
-    font-weight: lighter;
+    font-weight: light;
     font-family: "Work Sans", sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.6);
   }
   .apple_container {
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid red;
     display: flex;
     align-items: center;
@@ -411,7 +414,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid teal;
+    justify-content: space-between;
     width: 100%;
   }
   #apple_logo {
@@ -419,14 +422,21 @@
     height: 50px;
   }
   #apple_label {
-    margin-left: 38%;
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Inter", sans-serif;
+    color: black;
   }
   #button_apple_link {
     outline: none;
     border: none;
     border-radius: 20px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
+  }
+  #apple_image {
+    width: 20px;
+    height: 20px;
   }
   a {
     text-decoration: none;

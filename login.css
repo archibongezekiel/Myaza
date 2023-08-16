@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -90,7 +92,7 @@
     align-items: center;
     font-size: 47px;
     color: #2b0079;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   body .l #j .container2 #container1 #welcome_text #emoji {
     font-size: 47px;
@@ -99,7 +101,7 @@
   body .l #j .container2 #container1 #p_tag {
     font-size: 19px;
     color: #5a5675;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     padding: 5px;
   }
   body .l #j .container2 .from_container {
@@ -112,7 +114,7 @@
   body .l #j .container2 .from_container #email_container #email_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container #email_container #email {
@@ -135,7 +137,7 @@
   body .l #j .container2 .from_container #password_container #password_label {
     color: #2b0079;
     margin-bottom: 10px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 13px;
   }
   body .l #j .container2 .from_container #password_container #password {
@@ -173,7 +175,7 @@
     text-decoration: none;
     color: #3a25f4;
     font-size: 13px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: bold;
   }
   body .l #j .container2 .from_container #login_button {
@@ -196,14 +198,14 @@
   body .l #j .container2 .from_container #signup_link #link_label {
     color: #5a5675;
     font-size: 15px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   body .l #j .container2 .from_container #signup_link #link {
     text-decoration: none;
     color: #3a25f4;
     font-size: 15px;
     font-weight: 700;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -229,8 +231,7 @@
     width: 270px;
   }
   .container2 {
-    width: 70%;
-    height: 1600px;
+    width: 60%;
     overflow: scroll;
     margin: auto;
     margin-top: 110px;
@@ -244,7 +245,7 @@
     align-items: center;
     font-size: 57px;
     color: #2b0079;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
   }
   #emoji {
     font-size: 60px;
@@ -252,6 +253,7 @@
   #p_tag {
     font-size: 38px;
     color: #5a5675;
+    font-family: "Karla", sans-serif;
   }
   #email_container {
     display: flex;
@@ -262,7 +264,7 @@
     font-size: 27px;
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   #email {
     border: 2px solid #d3cffb;
@@ -290,7 +292,7 @@
   #password_label {
     color: #2b0079;
     margin-bottom: 20px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 27px;
   }
   #password_input {
@@ -316,6 +318,7 @@
     width: 120px;
     height: 90px;
     position: relative;
+    font-family: "Karla", sans-serif;
     color: #3a25f4;
     font-size: 40px;
     font-weight: bold;
@@ -332,7 +335,7 @@
     text-decoration: none;
     color: #3a25f4;
     font-size: 35px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
     font-weight: bold;
   }
   #login_button {
@@ -355,17 +358,16 @@
   #link_label {
     color: #5a5675;
     font-size: 35px;
-    font-family: "Work Sans", sans-serif;
   }
   #link {
     text-decoration: none;
     color: #3a25f4;
     font-size: 35px;
     font-weight: 700;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Karla", sans-serif;
   }
   #footer {
-    font-family: Work Sans, sans-serif;
+    font-family: "Karla", sans-serif;
     position: fixed;
     bottom: 0;
     box-shadow: 0px 1px 19px #3a25f4;
