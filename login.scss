@@ -310,7 +310,6 @@
     height: 110px;
     padding: 40px;
     border-radius: 4px;
-    width: 100%;
   }
   #password_input:focus {
     border: 1px solid #5645f5;
@@ -406,9 +405,9 @@
     align-items: center;
     justify-content: center;
     margin-right: 45px;
+    border: 1px solid red;
   }
   #apple_download_button {
-    width: 194px;
     background-color: #2b0079;
     display: flex;
     align-items: center;
@@ -417,7 +416,6 @@
     margin-right: 20px;
   }
   #google_download_button {
-    width: 194px;
     background-color: #2b0079;
     display: flex;
     align-items: center;
