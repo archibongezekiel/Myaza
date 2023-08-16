@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@900&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -313,32 +313,36 @@
   }
   .android_display_background {
     width: 1080px;
+    overflow: scroll;
   }
   #header_image {
     box-shadow: 0px 1px 19px #3a25f4;
     height: 180px;
     width: 1080px;
+    position: fixed;
+    top: 0;
+    background-color: white;
   }
   #company_logo {
     margin-top: 70px;
-    margin-left: 130px;
+    margin-left: 20px;
     width: 270px;
   }
   .container {
     margin: auto;
-    margin-top: 80px;
-    width: 60%;
+    margin-top: 400px;
+    width: 95%;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
     overflow: scroll;
   }
   #welcome_head {
-    font-size: 50px;
+    font-size: 70px;
     color: #2b0079;
     font-family: "Space Grotesk", sans-serif;
   }
   #info_para {
-    font-size: 30px;
+    font-size: 45px;
     color: #5a5675;
     font-family: "Karla", sans-serif;
     line-height: 60px;
@@ -346,118 +350,122 @@
   .email_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 90px;
   }
   #email_label_android {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #email_input_android {
-    border: 2px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+    font-size: 40px;
+    height: 140px;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
+    font-family: "Karla", sans-serif;
   }
   #email_input_android:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   .firstName_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 80px;
   }
   #firstName_label_android {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #firstName_input_android {
-    border: 2px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+    font-size: 40px;
+    height: 140px;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
+    font-family: "Karla", sans-serif;
   }
   #firstName_input_android:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   .lastName_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 80px;
   }
   #lastName_label_android {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #lastName_input_android {
     border: 2px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+    font-size: 40px;
+    height: 140px;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
+    font-family: "Karla", sans-serif;
   }
   #lastName_input_android:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   .password_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin-top: 80px;
   }
   #password_label_android {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #password_input_android {
-    border: 2px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+    font-size: 40px;
+    height: 140px;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 100%;
+    font-family: "Karla", sans-serif;
   }
   #password_input_android:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   .confirm_password_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 37px;
   }
   #confirm_password_label_android {
     color: #2b0079;
     margin-bottom: 20px;
     font-family: "Karla", sans-serif;
-    font-size: 27px;
+    font-size: 40px;
   }
   #confirm_password_input_android {
-    border: 3px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+    font-size: 40px;
+    height: 140px;
+    font-family: "Karla", sans-serif;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 100%;
   }
   #confirm_password_input_android:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   #show_password_android {
@@ -467,6 +475,8 @@
     width: 120px;
     height: 90px;
     position: relative;
+    bottom: 110px;
+    left: 85%;
     font-family: "Karla", sans-serif;
     color: #3a25f4;
     font-size: 40px;
@@ -476,63 +486,64 @@
   .label_link_container {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   #label {
     text-decoration: none;
     color: #635f7d;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 6px;
   }
   #terms_condi_link {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: #451f8a;
   }
   #privacy_link {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: #451f8a;
   }
   #next_email_ver_button {
     outline: none;
     border: none;
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-color: #5645f5;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     border-radius: 9px;
-    margin-top: 10px;
+    margin-top: 60px;
     opacity: 0.5;
   }
   .have_account_container {
     display: flex;
     align-items: center;
     font-size: 50px;
-    margin-top: 40px;
+    margin-top: 60px;
     justify-content: center;
   }
   #link_label {
     color: #5a5675;
-    font-size: 35px;
+    font-size: 40px;
     font-family: "Karla", sans-serif;
   }
   #link {
     text-decoration: none;
     color: #3a25f4;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     font-family: "Karla", sans-serif;
   }
   .download_coontainer {
-    margin-top: auto;
-    position: fixed;
-    box-shadow: 0px 1px 19px #3a25f4;
-    height: 205px;
+    height: 300px;
     width: 1080px;
+    position: fixed;
     bottom: 0;
+    background-color: white;
+    box-shadow: 0px 1px 19px #3a25f4;
+    display: none;
   }
   .close_button_container_android {
     text-align: end;
@@ -545,17 +556,18 @@
     width: 90px;
   }
   #close_icon {
-    font-size: 50px;
+    font-size: 70px;
     color: #3a25f4;
   }
   .apple_google_store {
     display: flex;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 100px;
     margin-top: 0;
   }
   #download_label {
-    font-size: 30px;
+    font-size: 40px;
     color: #2b0079;
     padding: 30px;
     font-family: "Karla", sans-serif;
@@ -563,6 +575,7 @@
   .store_download {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 45px;
   }
   #apple_download_button {

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@900&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -261,12 +261,13 @@
     font-size: 45px;
     color: #5a5675;
     font-family: "Karla", sans-serif;
+    margin-top: 20px;
   }
 
   #email_container {
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   #email_label {
     font-size: 40px;
@@ -275,27 +276,24 @@
     font-family: "Karla", sans-serif;
   }
   #email {
-    border: 2px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    width: 100%;
-    height: 100px;
-    padding: 20px;
+
+    height: 140px;
+    padding: 40px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
   }
   #email:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
+
   #password_container {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-  }
-  #password_container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   #password_label {
     color: #2b0079;
@@ -304,27 +302,29 @@
     font-size: 40px;
   }
   #password_input {
-    border: 2px solid #d3cffb;
+    border: 5px solid #d3cffb;
     outline: none;
-    font-size: 30px;
-    height: 110px;
+
+    height: 140px;
     padding: 40px;
-    border-radius: 4px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: "Karla", sans-serif;
   }
   #password_input:focus {
-    border: 1px solid #5645f5;
+    border: 5px solid #5645f5;
     background: #eae7fe;
   }
   #show_password {
     position: relative;
-    bottom: 100px;
-    left: 88%;
+    bottom: 110px;
+    left: 85%;
     background: transparent;
     outline: none;
     border: none;
     width: 120px;
     height: 90px;
-    position: relative;
+
     font-family: "Karla", sans-serif;
     color: #3a25f4;
     font-size: 40px;
@@ -349,17 +349,17 @@
     outline: none;
     border: none;
     width: 100%;
-    height: 110px;
+    height: 140px;
     background-color: #5645f5;
     color: white;
     font-size: 41px;
     font-weight: bold;
     border-radius: 9px;
-    margin-top: 200px;
+    margin-top: 300px;
     opacity: 0.5;
   }
   #signup_link {
-    margin-top: 35px;
+    margin-top: 50px;
     text-align: center;
   }
   #link_label {
@@ -378,8 +378,10 @@
     font-family: "Karla", sans-serif;
     box-shadow: 0px 1px 19px #3a25f4;
     width: 1080px;
+    height: 300px;
     position: fixed;
     bottom: 0;
+    background-color: white;
   }
   .close_icon_container {
     text-align: end;
@@ -392,7 +394,7 @@
     background: transparent;
   }
   #close_icon {
-    font-size: 60px;
+    font-size: 70px;
     color: #3a25f4;
   }
   #footer1 {
@@ -405,7 +407,6 @@
     align-items: center;
     justify-content: center;
     margin-right: 45px;
-    border: 1px solid red;
   }
   #apple_download_button {
     background-color: #2b0079;
