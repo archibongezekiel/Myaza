@@ -368,6 +368,13 @@
     border-radius: 10px;
     font-family: "Karla", sans-serif;
   }
+  #email_verification {
+    display: non;
+    font-size: 35px;
+    font-family: "Karla", sans-serif;
+    padding-top: 20px;
+    color: #d94648;
+  }
   #email_input_android:focus {
     border: 5px solid #5645f5;
     background: #eae7fe;
@@ -375,7 +382,7 @@
   .firstName_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   #firstName_label_android {
     color: #2b0079;
@@ -399,7 +406,7 @@
   .lastName_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   #lastName_label_android {
     color: #2b0079;
@@ -423,7 +430,7 @@
   .password_container_android {
     display: flex;
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 30px;
   }
   #password_label_android {
     color: #2b0079;
@@ -440,6 +447,27 @@
     border-radius: 10px;
     width: 100%;
     font-family: "Karla", sans-serif;
+  }
+  .password_verification {
+    display: non;
+    line-height: 55px;
+    margin-bottom: 15px;
+  }
+  #verification_1,
+  #verification_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #uppercase,
+  #lowercase,
+  #number,
+  #special_character,
+  #characters {
+    font-size: 35px;
+    font-family: "Karla", sans-serif;
+    font-weight: light;
+    color: #d94648;
   }
   #password_input_android:focus {
     border: 5px solid #5645f5;
@@ -464,6 +492,13 @@
     padding: 40px;
     border-radius: 10px;
     width: 100%;
+  }
+  #confirm_password_verification {
+    display: non;
+    font-size: 35px;
+    font-family: "Karla", sans-serif;
+    font-weight: light;
+    color: #d94648;
   }
   #confirm_password_input_android:focus {
     border: 5px solid #5645f5;
@@ -563,23 +598,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 100px;
-    margin-top: 0;
   }
   #download_label {
     font-size: 40px;
     color: #2b0079;
     padding: 30px;
     font-family: "Karla", sans-serif;
+    border: 1px solid red;
   }
   .store_download {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 45px;
+    border: 1px solid red;
   }
   #apple_download_button {
-    width: 194px;
     background-color: #2b0079;
     display: flex;
     align-items: center;
@@ -588,7 +621,6 @@
     margin-right: 20px;
   }
   #google_download_button {
-    width: 194px;
     background-color: #2b0079;
     display: flex;
     align-items: center;

@@ -224,7 +224,9 @@
               placeholder="E.g Wale@Azaman.com"
               required
             />
-            <span>The Email Address field has to be a valid email</span>
+            <span id="email_verification"
+              >* The Email Address field has to be a valid email</span
+            >
           </div>
           <!---->
           <div class="firstName_container_android">
@@ -264,19 +266,19 @@
                 required
               /><button id="show_password_android"><span>Show</span></button>
             </div>
-            <div>
-              <div>
-                <p>* An uppercase letter</p>
-                <p>* A lowercase letter</p>
+            <div class="password_verification">
+              <div id="verification_1">
+                <p id="uppercase">* An uppercase letter</p>
+                <p id="lowercase">* A lowercase letter</p>
+              </div>
+              <!---->
+              <div id="verification_2">
+                <p id="number">* A number</p>
+                <p id="special_character">* A special character</p>
               </div>
               <!---->
               <div>
-                <p>* A number</p>
-                <p>* A special character</p>
-              </div>
-              <!---->
-              <div>
-                <p>* At least 8 characters</p>
+                <p id="characters">* At least 8 characters</p>
               </div>
               <!---->
             </div>
@@ -299,7 +301,7 @@
             </div>
             <!---->
             <div>
-              <span
+              <span id="confirm_password_verification"
                 >* The Confirm Password field must be equal to the Password
                 field</span
               >
@@ -334,9 +336,11 @@
         </div>
         <!---->
         <div class="apple_google_store">
-          <p id="download_label">
-            Download the Myaza mobile app on your mobile device.
-          </p>
+          <div style="text-align: center">
+            <p id="download_label">
+              Download the Myaza mobile app on your mobile device.
+            </p>
+          </div>
           <div class="store_download">
             <a href="">
               <button id="apple_download_button">
