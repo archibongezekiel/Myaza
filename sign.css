@@ -369,7 +369,7 @@
     font-family: "Karla", sans-serif;
   }
   #email_verification {
-    display: non;
+    display: none;
     font-size: 35px;
     font-family: "Karla", sans-serif;
     padding-top: 20px;
@@ -449,7 +449,7 @@
     font-family: "Karla", sans-serif;
   }
   .password_verification {
-    display: non;
+    display: none;
     line-height: 55px;
     margin-bottom: 15px;
   }
@@ -494,7 +494,7 @@
     width: 100%;
   }
   #confirm_password_verification {
-    display: non;
+    display: none;
     font-size: 35px;
     font-family: "Karla", sans-serif;
     font-weight: light;
@@ -522,7 +522,7 @@
   .label_link_container {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 90px;
   }
   #label {
     text-decoration: none;
@@ -604,13 +604,11 @@
     color: #2b0079;
     padding: 30px;
     font-family: "Karla", sans-serif;
-    border: 1px solid red;
   }
   .store_download {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
   }
   #apple_download_button {
     background-color: #2b0079;
