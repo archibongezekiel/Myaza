@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@1000&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -288,7 +288,7 @@
     cursor: no-drop;
   }
   body .l #j .container2 .from_container #signup_link {
-    margin-top: 40px;
+    margin-top: 90px;
     width: 250px;
   }
   body .l #j .container2 .from_container #signup_link #link_label {
@@ -332,6 +332,7 @@
     margin: auto;
     margin-top: 400px;
     width: 95%;
+    height: 2410px;
     background-color: rgb(255, 255, 255);
     background: #f6f5fe;
     overflow: scroll;
