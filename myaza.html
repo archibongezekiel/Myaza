@@ -6,90 +6,158 @@
     <title>
       Myaza | Swap, Save, Send and Receive Multiple Currencies Globally
     </title>
-    <link rel="shortcut icon" href="icons/ myazalogo.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="myaza.css" />
   </head>
   <body>
-    <section>
-      <header><img src="icons/logo.svg" alt="" /></header>
+    <section class="content_container">
+      <header class="header_logo_container">
+        <img
+          src="icons/logo.svg"
+          alt="Sorry, we're having trouble viewing/ this photo"
+          id="image_logo"
+        />
+      </header>
       <main>
-        <div>
-          <h1>Swap, Save, Send and Receive Multiple Currencies Globally</h1>
+        <div class="info_text_container">
+          <h1 id="info_text">
+            Swap, Save, Send and Receive Multiple Currencies Globally
+          </h1>
+          <div class="sign">
+            <svg
+              class="w-[94px] md:w-auto absolute -bottom-[20px] md:-bottom-[25px] right-1/2 md:right-[100px] translate-x-1/2"
+              width="223"
+              height="30"
+              viewBox="0 0 223 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M221 9.07643C175.708 7.15021 130.805 3.55859 85.4304 2.75929C59.3482 2.29984 -18.6509 0.954902 7.16666 3.54893C49.6025 7.81267 93.4606 7.67567 136.187 10.5429C152.742 11.6539 169.163 13.143 185.634 14.7168C191.972 15.3224 196.923 16.3458 186.78 15.9576C141.512 14.225 96.4792 10.3744 51.2104 8.51241C46.3796 8.31371 32.067 8.21686 36.7202 9.13283C53.7765 12.4903 72.0747 13.8131 89.5236 15.6756C110.535 17.9185 131.887 19.3192 152.724 22.2748C160.209 23.3365 170.233 23.6677 177.202 25.8282C189.533 29.6513 150.198 27.3 136.678 27.1255C114.177 26.835 91.7025 25.9401 69.221 25.3206"
+                stroke="#7B6EF7"
+                stroke-width="3"
+                stroke-linecap="round"
+              ></path>
+            </svg>
+          </div>
         </div>
-        <div>
-          <p>
-            <span>Myaza</span>offers a reliable way to send and receive money
-            from any part of the world. We eliminate the risks and hiccups
-            associated with online transactions by delivering an affordable,
-            quick, and secure portal for completing financial obligations. Get
-            on the Myaza train below.
+        <!---->
+        <div class="description_about_container">
+          <p id="description_about_text">
+            <span id="company_name" style="font-family: 'Karla', sans-serif"
+              >Myaza</span
+            >
+            offers a reliable way to send and receive money from any part of the
+            world. We eliminate the risks and hiccups associated with online
+            transactions by delivering an affordable, quick, and secure portal
+            for completing financial obligations. Get on the Myaza train below.
           </p>
+          <!---->
+          <!---->
         </div>
         <!---->
-        <div>
-          <form action="">
-            <div>
-              <label for="email_address">Your Email Address</label>
-              <input type="email" required id="email_address" />
+
+        <form action="" class="form_container">
+          <div id="content">
+            <label for="email_address" id="email_label">
+              Your Email Address
+            </label>
+            <!---->
+            <div class="join_button_container">
+              <input
+                type="email"
+                required
+                id="email_address"
+                placeholder="example@email.com"
+              />
+              <button id="join_button">Join the geng!</button>
+              <!---->
             </div>
-            <button>Join the geng!</button>
-            <img src="icons/" alt="" />
-          </form>
-        </div>
+          </div>
+          <!---->
+          <!---->
+          <svg
+            class="absolute bottom-[15px] -right-[80px] hidden md:block"
+            width="80"
+            height="70"
+            viewBox="0 0 67 90"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M65.9299 1.86613C59.9749 26.8088 52.7727 60.344 30.2652 72.8745C24.8025 75.9157 15.6658 83.7769 9 83.5001C5.21376 83.3428 2.42196 83.7076 5.20033 78.5342C7.48839 74.2739 8.7551 70.6424 12.5 67.5001C13.8525 66.3652 5.46912 78.2765 2.17486 82.6243C-2.03678 88.1828 17.6958 88.4662 23 89.0001"
+              stroke="#5645F5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-dasharray="7 7"
+            ></path>
+          </svg>
+        </form>
+
         <!---->
-        <div>
-          <img src="icons/mockups.png" alt="" />
+        <div class="mockups_container">
+          <img src="icons/mockups.png" alt="" width="80%" id="mockups_image" />
         </div>
         <!---->
       </main>
     </section>
     <!---->
-    <footer>
-      <div>
+    <footer class="footer_container">
+      <div class="swap_multi_secure_container">
         <!---->
-        <div>
-          <img src="icons/swap-currency.svg" alt="" />
-          <div>
-            <h1>Swap currency</h1>
-            <p>
-              Myaza also acts as an exchange. You can swap your local currency
-              with other currencies at the best available market rate.
-            </p>
+        <div class="Swap_currency_container">
+          <div id="Swap_currency_icon">
+            <img src="icons/swap-currency.svg" alt="" />
+            <h1 id="title">Swap currency</h1>
           </div>
+          <!---->
+          <p id="text">
+            Myaza also acts as an exchange. You can swap your local currency
+            with other currencies at the best available market rate.
+          </p>
         </div>
         <!---->
-        <div>
-          <img src="icons/multi-wallets.svg" alt="" />
-          <div>
-            <h1>Swap currency</h1>
-            <p>
-              Myaza also acts as an exchange. You can swap your local currency
-              with other currencies at the best available market rate.
-            </p>
+        <div class="Multi-Wallets_container">
+          <div id="Multi-Wallets_icon">
+            <img src="icons/multi-wallets.svg" alt="" />
+            <h1 id="title">Multi-Wallets</h1>
           </div>
+          <!---->
+          <p id="text">
+            We offer different wallets for every currency. You can quickly
+            receive, send, swap and transact with any of your wallets.
+          </p>
         </div>
         <!---->
-        <div>
-          <img src="icons/secured-transaction.svg" alt="" />
-          <div>
-            <h1>Swap currency</h1>
-            <p>
-              Myaza also acts as an exchange. You can swap your local currency
-              with other currencies at the best available market rate.
-            </p>
+        <div class="Secured_transaction_container">
+          <div id="Secured_transaction_icon">
+            <img src="icons/secured-transaction.svg" alt="" />
+            <h1 id="title">Secured transaction</h1>
           </div>
+          <!---->
+          <p id="text">
+            We offer a secure means to carry out your financial transactions
+            with state-of-the-art financial security features deeply integrated
+            into our platform.
+          </p>
         </div>
       </div>
       <!---->
-      <div>
-        <div>
+      <div class="Copyright_social_media_container">
+        <div style="display: flex; flex-direction: column">
           <p>Copyright © 2023 <span>Myaza</span></p>
           <p>All rights reserved.</p>
         </div>
         <!---->
-        <div>
-          <a href=""><img src="icons/twitterpu.svg" alt="" /></a>
-          <a href=""><img src="icons/instagrampurple.svg" alt="" /></a>
-          <a href=""><img src="icons/facebookpurple.svg" alt="" /></a>
+        <div style="display: flex; align-items: center">
+          <a href=""><img src="icons/twitterpu.svg" alt="" width="30px" /></a>
+          <a href=""
+            ><img src="icons/instagrampurple.svg" alt="" width="30px"
+          /></a>
+          <a href=""
+            ><img src="icons/facebookpurple.svg" alt="" width="30px"
+          /></a>
         </div>
       </div>
     </footer>

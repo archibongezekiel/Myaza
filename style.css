@@ -361,7 +361,7 @@
 }
 @media screen and (max-width: 1090px) {
   body {
-    background-image: linear-gradient(to right, #dad6fc, rgba(201, 190, 190, 0.824));
+    background-image: linear-gradient(to right, #dbc9f0, #f9efe6);
   }
   #blur1 {
     display: none;
