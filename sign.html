@@ -141,8 +141,12 @@
                 </div>
                 <!---->
                 <div id="forget_button_link">
-                  <input type="checkbox" name="" id="box" />
-
+                  <div class="check_box_container" onclick="Checkbox()">
+                    <span class="material-symbols-outlined" id="check_icon">
+                      done
+                    </span>
+                  </div>
+                  <!---->
                   <p id="paragrah">
                     By signing up, you agree to the
                     <a
@@ -281,10 +285,18 @@
               >
             </div>
           </div>
+
           <!---->
           <div>
             <div class="label_link_container">
-              <input type="checkbox" name="" id="" />
+              <div
+                class="check_box_container_android"
+                onclick="checkBoxAndroid()"
+              >
+                <span class="material-symbols-outlined" id="check_icon_android">
+                  done
+                </span>
+              </div>
               <p id="label">
                 By signing up, you agree to the
                 <a href="" id="terms_condi_link">Terms & Condition</a> and

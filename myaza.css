@@ -103,6 +103,7 @@ body {
   font-weight: bolder;
   opacity: 0.5;
   margin-left: 30px;
+  cursor: not-allowed;
 }
 
 .mockups_container {
@@ -166,4 +167,5 @@ body {
   background-color: white;
   color: black;
   height: 100px;
+  font-family: "Karla", sans-serif;
 }/*# sourceMappingURL=myaza.css.map */

@@ -99,6 +99,7 @@ body {
     font-weight: bolder;
     opacity: 0.5;
     margin-left: 30px;
+    cursor: not-allowed;
   }
 }
 .mockups_container {
@@ -108,8 +109,7 @@ body {
     padding: 0px;
   }
 }
-.footer_container {
-}
+
 .swap_multi_secure_container {
   background-color: #1a004a;
   color: rgb(255, 255, 255);
@@ -153,4 +153,5 @@ body {
   background-color: white;
   color: black;
   height: 100px;
+  font-family: "Karla", sans-serif;
 }
