@@ -2,12 +2,7 @@ const close_icon_button_android = document.querySelector(
   "#close_icon_button_android"
 );
 const download_containers = document.querySelector(".download_containers");
-
-///////////////////////////////////////////////////////////////////////////
-close_icon_button_android.addEventListener("click", () => {
-  download_containers.style.display = "none";
-});
-////////////////////////
+/////////////////////////////////////////////////////////////////////
 function Checkbox() {
   var x = document.querySelector(".check_box_container");
   var z = document.querySelector("#check_icon");
@@ -19,6 +14,8 @@ function Checkbox() {
     z.style.display = "none";
   }
 }
+///////////////////////// Android///////////////////////
+/////////////////////////////////////////////////////////////////////////////////
 function checkBoxAndroid() {
   var x = document.querySelector(".check_box_container_android");
   var z = document.querySelector("#check_icon_android");
@@ -30,3 +27,8 @@ function checkBoxAndroid() {
     z.style.display = "none";
   }
 }
+///////////////////////////////////////////////////////////////////////////
+close_icon_button_android.addEventListener("click", () => {
+  download_containers.style.display = "none";
+});
+////////////////////////
