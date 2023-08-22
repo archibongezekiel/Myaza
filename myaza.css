@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(to right, #dbc9f0, #f9efe6);
+  background-repeat: no-repeat;
+}
+
 .content_container {
   max-width: 1280px;
   margin: auto;
@@ -175,19 +180,19 @@
     display: none;
   }
   .header_logo_container_android {
-    border: 1px solid red;
     text-align: center;
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
   }
   #image_logo_android {
     width: 160px;
   }
   .info_text_container_android {
-    border: 1px solid red;
     text-align: center;
     width: 90%;
     margin: auto;
+    margin-top: 30px;
   }
   #info_text_android {
     font-family: "Space Grotesk", sans-serif;
@@ -196,10 +201,10 @@
     color: rgb(7, 3, 48);
   }
   .description_about_container_android {
-    border: 1px solid red;
     text-align: center;
     width: 90%;
     margin: auto;
+    margin-top: 30px;
   }
   #description_about_text {
     line-height: 25px;
@@ -216,10 +221,10 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    border: 1px solid red;
+    margin-top: 30px;
   }
   #email_label_android {
-    line-height: 24px;
+    line-height: 30px;
     font-size: 16px;
     font-family: "Karla", sans-serif;
     color: rgb(7, 3, 48);
@@ -238,7 +243,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-    border: 1px solid red;
+    margin-top: 20px;
   }
   #join_button_android {
     background-color: #5645f5;
@@ -256,10 +261,61 @@
   }
   #h {
     margin: auto;
+    margin-top: 30px;
   }
   .mockups_container_android {
     text-align: center;
-    border: 1px solid red;
     margin: auto;
+    margin-top: 30px;
+  }
+  .swap_multi_secure_container_android {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 -55px 550px -5px #1a004a;
+  }
+  .Swap_currency_container_android,
+  .Multi-Wallets_container_android,
+  .Secured_transaction_container_android {
+    background-color: #1a004a;
+    color: white;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-right: 5px solid #fadba2;
+    border-bottom: 5px solid #fadba2;
+  }
+  #Swap_currency_icon_android,
+  #Multi-Wallets_icon_android,
+  #Secured_transaction_icon_android {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  #title {
+    margin: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+  }
+  #text {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    width: 200px;
+    line-height: 24px;
+    margin-left: 60px;
+  }
+  .Copyright_social_media_container_android {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+  }
+  #link {
+    margin-right: 10px;
   }
 }/*# sourceMappingURL=myaza.css.map */
