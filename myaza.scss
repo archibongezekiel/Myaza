@@ -8,6 +8,7 @@
 }
 body {
   background-image: linear-gradient(to right, #dbc9f0, #f9efe6);
+  background-repeat: no-repeat;
 }
 .content_container {
   max-width: 1280px;
@@ -154,4 +155,32 @@ body {
   color: black;
   height: 100px;
   font-family: "Karla", sans-serif;
+}
+// Android//
+@media screen and (max-width: 1080px) {
+  .content_container {
+    display: none;
+  }
+  .footer_container {
+    display: none;
+  }
+  .header_logo_container_android {
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px;
+  }
+  #image_logo_android {
+    width: 160px;
+  }
+  .info_text_container_android {
+    border: 1px solid red;
+    text-align: center;
+    width: 370px;
+    margin: auto;
+  }
+  #info_text_android {
+    font-family: "Space Grotesk", sans-serif;
+    line-height: 50px;
+    font-size: 41px;
+  }
 }
