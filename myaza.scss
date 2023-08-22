@@ -10,152 +10,160 @@ body {
   background-image: linear-gradient(to right, #dbc9f0, #f9efe6);
   background-repeat: no-repeat;
 }
-.content_container {
-  max-width: 1280px;
-  margin: auto;
-}
-.header_logo_container {
-  width: 766px;
-  margin: auto;
-  text-align: center;
-  #image_logo {
-    width: 200px;
-    padding: 30px;
+@media screen and (min-width: 1090px) {
+  .content_container_android {
+    display: none;
   }
-}
-.info_text_container {
-  max-width: 766px;
-  margin: auto;
-  text-align: center;
-  #info_text {
-    color: rgb(7, 8, 48);
-    font-size: 72px;
-    font-family: "Space Grotesk", sans-serif;
+  .Copyright_social_media_container_android {
+    display: none;
   }
-  .sign {
-    text-align: end;
+  .content_container {
+    max-width: 1280px;
+    margin: auto;
   }
-}
-.description_about_container {
-  width: 766px;
-  margin: auto;
-  line-height: 40px;
-  text-align: center;
-  #description_about_text {
-    color: rgb(7, 8, 48);
-    font-size: 24px;
-    font-family: "Karla", sans-serif;
+  .header_logo_container {
+    width: 766px;
+    margin: auto;
+    text-align: center;
+    #image_logo {
+      width: 200px;
+      padding: 30px;
+    }
   }
-  #company_name {
-    color: rgb(7, 8, 48);
-    font-size: 24px;
-    font-weight: bolder;
+  .info_text_container {
+    max-width: 766px;
+    margin: auto;
+    text-align: center;
+    #info_text {
+      color: rgb(7, 8, 48);
+      font-size: 72px;
+      font-family: "Space Grotesk", sans-serif;
+    }
+    .sign {
+      text-align: end;
+    }
   }
-}
+  .description_about_container {
+    width: 766px;
+    margin: auto;
+    line-height: 40px;
+    text-align: center;
+    #description_about_text {
+      color: rgb(7, 8, 48);
+      font-size: 24px;
+      font-family: "Karla", sans-serif;
+    }
+    #company_name {
+      color: rgb(7, 8, 48);
+      font-size: 24px;
+      font-weight: bolder;
+    }
+  }
 
-.form_container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 766px;
-  margin: auto;
-  padding: 5px;
-
-  #content {
-    display: flex;
-    flex-direction: column;
-  }
-  #email_label {
-    font-size: 16px;
-    color: rgb(7, 8, 48);
-    font-family: "Karla", sans-serif;
-    line-height: 24px;
-  }
-  #email_address {
-    outline: none;
-    border: none;
-    height: 65px;
-    padding: 16px;
-    width: 400px;
-    font-family: "Karla", sans-serif;
-    border-radius: 5px;
-  }
-  #email_address:focus {
-    border: 2px solid #5645f5;
-    background: #eae7fe;
-  }
-  .join_button_container {
+  .form_container {
     display: flex;
     align-items: center;
-  }
-  #join_button {
-    background-color: #5645f5;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-family: "Karla", sans-serif;
-    height: 65px;
-    width: 200px;
-    font-size: 16px;
-    font-weight: bolder;
-    opacity: 0.5;
-    margin-left: 30px;
-    cursor: not-allowed;
-  }
-}
-.mockups_container {
-  text-align: center;
-  #mockups_image {
-    margin: 0px;
-    padding: 0px;
-  }
-}
+    justify-content: center;
+    width: 766px;
+    margin: auto;
+    padding: 5px;
 
-.swap_multi_secure_container {
-  background-color: #1a004a;
-  color: rgb(255, 255, 255);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 290px;
-  border-bottom: 10px solid #7c6ef7;
-  .Swap_currency_container,
-  .Multi-Wallets_container,
-  .Secured_transaction_container {
-    display: flex;
-    flex-direction: column;
-    width: 290px;
-
-    #Swap_currency_icon,
-    #Multi-Wallets_icon,
-    #Secured_transaction_icon {
+    #content {
+      display: flex;
+      flex-direction: column;
+    }
+    #email_label {
+      font-size: 16px;
+      color: rgb(7, 8, 48);
+      font-family: "Karla", sans-serif;
+      line-height: 24px;
+    }
+    #email_address {
+      outline: none;
+      border: none;
+      height: 65px;
+      padding: 16px;
+      width: 400px;
+      font-family: "Karla", sans-serif;
+      border-radius: 5px;
+    }
+    #email_address:focus {
+      border: 2px solid #5645f5;
+      background: #eae7fe;
+    }
+    .join_button_container {
       display: flex;
       align-items: center;
     }
-    #title {
-      text-align: center;
-      font-size: 24px;
-      font-family: "Space Grotesk", sans-serif;
-      line-height: 35px;
-    }
-    #text {
-      margin: auto;
-      font-size: 16px;
+    #join_button {
+      background-color: #5645f5;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      color: white;
       font-family: "Karla", sans-serif;
+      height: 65px;
       width: 200px;
-      line-height: 23px;
+      font-size: 16px;
+      font-weight: bolder;
+      opacity: 0.5;
+      margin-left: 30px;
+      cursor: not-allowed;
     }
   }
-}
-.Copyright_social_media_container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: white;
-  color: black;
-  height: 100px;
-  font-family: "Karla", sans-serif;
+  .mockups_container {
+    text-align: center;
+    #mockups_image {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+
+  .swap_multi_secure_container {
+    background-color: #1a004a;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 290px;
+    border-bottom: 10px solid #7c6ef7;
+    .Swap_currency_container,
+    .Multi-Wallets_container,
+    .Secured_transaction_container {
+      display: flex;
+      flex-direction: column;
+      width: 290px;
+
+      #Swap_currency_icon,
+      #Multi-Wallets_icon,
+      #Secured_transaction_icon {
+        display: flex;
+        align-items: center;
+      }
+      #title {
+        text-align: center;
+        font-size: 24px;
+        font-family: "Space Grotesk", sans-serif;
+        line-height: 35px;
+      }
+      #text {
+        margin: auto;
+        font-size: 16px;
+        font-family: "Karla", sans-serif;
+        width: 200px;
+        line-height: 23px;
+      }
+    }
+  }
+  .Copyright_social_media_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    height: 100px;
+    font-family: "Karla", sans-serif;
+  }
 }
 // Android//
 @media screen and (max-width: 1080px) {
@@ -165,8 +173,8 @@ body {
   .footer_container {
     display: none;
   }
-  .content_container_android {
-  }
+  // .content_container_android {
+  // }
   .header_logo_container_android {
     text-align: center;
     padding: 20px;
